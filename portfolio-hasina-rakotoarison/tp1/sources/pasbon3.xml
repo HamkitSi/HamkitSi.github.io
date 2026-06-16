@@ -1,0 +1,18 @@
+<foret>
+    <arbre>
+        <tronc>
+        <branche>
+        <feuille/>
+        </branche>
+        </tronc>
+    </arbre>
+    <arbre>
+        <tronc>
+        <branche>
+            <feuille/>
+        <branche>
+        <!-- </feuille> On a déja une balise auto-fermante de feuille donc cette fermeture est inutile-->           
+        </branche>
+        </branche>
+    </arbre>
+</foret>

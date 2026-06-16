@@ -1,0 +1,75 @@
+<formation xmlns:xsi="http://www.w3c.org/2001/XMLSchema-instance" code_formation="G4SI2">
+<enseignants>
+<enseignant id_enseignant="th1" sexe="M">
+<nom>
+<prenom>Thierry</prenom>
+<nom_de_famille>Hamon</nom_de_famille>
+</nom>
+<corps>MCF</corps>
+<discipline>27</discipline>
+</enseignant>
+<enseignant id_enseignant="jn1" sexe="M">
+<nom>
+<prenom>Jérôme</prenom>
+<nom_de_famille>Nobécourt</nom_de_famille>
+</nom>
+<corps>MCF</corps>
+<discipline>27</discipline>
+</enseignant>
+<enseignant id_enseignant="cr1" sexe="F">
+<nom>
+<prenom>Catherine</prenom>
+<nom_de_famille>Recanati</nom_de_famille>
+</nom>
+<corps>MCF</corps>
+<discipline>27</discipline>
+</enseignant>
+<enseignant id_enseignant="cr2" sexe="F">
+<nom>
+<prenom>Céline</prenom>
+<nom_de_famille>Rouveirol</nom_de_famille>
+</nom>
+<corps>MCF</corps>
+<discipline>27</discipline>
+</enseignant>
+<enseignant id_enseignant="pv1" sexe="M">
+<nom>
+<prenom>Pascal</prenom>
+<nom_de_famille>Vaillant</nom_de_famille>
+</nom>
+<corps>MCF</corps>
+<discipline>27</discipline>
+</enseignant>
+</enseignants>
+<modules>
+<module code_module="G4SI2IG">
+<intitule>Interfaces Graphiques</intitule>
+<credits>2</credits>
+<enseignants>
+<id_enseignant>cr1</id_enseignant>
+</enseignants>
+</module>
+<module code_module="G4SI2MRC">
+<intitule>Modélisation et Représentation des Connaissances</intitule>
+<credits>3</credits>
+<enseignants>
+<id_enseignant>th1</id_enseignant>
+</enseignants>
+</module>
+<module code_module="G4SI2PLO">
+<intitule>Programmation Logique</intitule>
+<credits>3</credits>
+<enseignants>
+<id_enseignant>cr2</id_enseignant>
+</enseignants>
+</module>
+<module code_module="G4SI2WS">
+<intitule>Web Sémantique</intitule>
+<credits>3</credits>
+<enseignants>
+<id_enseignant>jn1</id_enseignant>
+<id_enseignant>pv1</id_enseignant>
+</enseignants>
+</module>
+</modules>
+</formation>

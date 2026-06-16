@@ -1,0 +1,31 @@
+catalogue {
+  display: block;
+  font-family: Arial, sans-serif;
+  margin: 1.5rem;
+  background: #fbf6ec;
+  color: #2b2118;
+}
+album {
+  display: block;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 2px solid #d8c6a3;
+  border-radius: 1rem;
+  background: #fffdf7;
+}
+album::before {
+  content: "Tome " attr(numero);
+  display: inline-block;
+  margin-bottom: .5rem;
+  padding: .25rem .6rem;
+  border-radius: 999px;
+  background: #2f6b3f;
+  color: white;
+  font-weight: bold;
+}
+nom { display: block; font-weight: bold; font-size: 1.25rem; color: #2f6b3f; }
+vignette { display: block; color: #6b4a2b; font-size: .9rem; margin: .4rem 0; }
+resume { display: block; margin: .5rem 0; }
+lien { display: block; color: #345d93; text-decoration: underline; }
+titres { display: block; margin-top: .5rem; }
+titre { display: list-item; margin-left: 1.4rem; }

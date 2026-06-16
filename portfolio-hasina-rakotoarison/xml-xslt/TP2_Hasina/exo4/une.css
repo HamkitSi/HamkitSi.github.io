@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f6f6;
+  color: #222;
+}
+
+.site-header {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 32px 20px 18px;
+}
+
+.label {
+  margin: 0 0 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #777;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+}
+
+.intro,
+.meta {
+  color: #555;
+  line-height: 1.5;
+}
+
+.articles {
+  max-width: 1050px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.article-card {
+  display: flex;
+  gap: 18px;
+  margin: 18px 0;
+  padding: 16px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.image-link {
+  flex: 0 0 220px;
+}
+
+.image-link img {
+  width: 220px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.article-text {
+  flex: 1;
+}
+
+.date,
+.credit {
+  margin: 0 0 8px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.read-more {
+  font-weight: bold;
+}
+
+@media (max-width: 720px) {
+  .article-card {
+    display: block;
+  }
+
+  .image-link img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+}

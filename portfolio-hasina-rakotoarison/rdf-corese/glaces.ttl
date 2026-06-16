@@ -1,0 +1,242 @@
+@prefix glaces: <https://hamkitsi.github.io/rdf-corese/glaces#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+glaces:GeorgesJeanArnaud a schema:Person ;
+  schema:name "Georges-Jean Arnaud" .
+
+glaces:LaCompagnieDesGlaces a schema:BookSeries ;
+  schema:name "La Compagnie des glaces"@fr ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise .
+
+glaces:Glace a schema:DefinedTerm ; schema:name "glace"@fr .
+glaces:Rail a schema:DefinedTerm ; schema:name "rail"@fr .
+glaces:Banquise a schema:DefinedTerm ; schema:name "banquise"@fr .
+glaces:LienRag a schema:Person ; schema:name "Lien Rag" .
+glaces:Jdrien a schema:Person ; schema:name "Jdrien" .
+glaces:Yeuse a schema:Person ; schema:name "Yeuse" .
+
+glaces:Integrale1 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "1"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 1"@fr ;
+  schema:description "Sur une Terre envahie par les glaces, Lien Rag découvre les secrets des grandes compagnies ferroviaires."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_1_0111973> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T1_1, glaces:T1_2, glaces:T1_3, glaces:T1_4 .
+glaces:T1_1 a schema:Book ; schema:name "La Compagnie des glaces"@fr ; schema:isPartOf glaces:Integrale1 .
+glaces:T1_2 a schema:Book ; schema:name "Le Sanctuaire des glaces"@fr ; schema:isPartOf glaces:Integrale1 .
+glaces:T1_3 a schema:Book ; schema:name "Le Peuple des glaces"@fr ; schema:isPartOf glaces:Integrale1 .
+glaces:T1_4 a schema:Book ; schema:name "Les Chasseurs des glaces"@fr ; schema:isPartOf glaces:Integrale1 .
+
+glaces:Integrale2 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "2"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 2"@fr ;
+  schema:description "Lien Rag et son fils Jdrien deviennent des personnages centraux dans le monde glacé du rail."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_2_016149> ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise ;
+  schema:hasPart glaces:T2_1, glaces:T2_2, glaces:T2_3, glaces:T2_4 .
+glaces:T2_1 a schema:Book ; schema:name "L'Enfant des glaces"@fr ; schema:isPartOf glaces:Integrale2 .
+glaces:T2_2 a schema:Book ; schema:name "Les Otages des Glaces"@fr ; schema:isPartOf glaces:Integrale2 .
+glaces:T2_3 a schema:Book ; schema:name "Le Gnome halluciné"@fr ; schema:isPartOf glaces:Integrale2 .
+glaces:T2_4 a schema:Book ; schema:name "La Compagnie de la Banquise"@fr ; schema:isPartOf glaces:Integrale2 .
+
+glaces:Integrale3 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "3"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 3"@fr ;
+  schema:description "Lien Rag entre en dissidence tandis que la Patagonie souffre du froid et de la faim."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_3_016150> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T3_1, glaces:T3_2, glaces:T3_3, glaces:T3_4 .
+glaces:T3_1 a schema:Book ; schema:name "Le Réseau de Patagonie"@fr ; schema:isPartOf glaces:Integrale3 .
+glaces:T3_2 a schema:Book ; schema:name "Les Voiliers du rail"@fr ; schema:isPartOf glaces:Integrale3 .
+glaces:T3_3 a schema:Book ; schema:name "Les Fous du soleil"@fr ; schema:isPartOf glaces:Integrale3 .
+glaces:T3_4 a schema:Book ; schema:name "Cancer-Network"@fr ; schema:isPartOf glaces:Integrale3 .
+
+glaces:Integrale4 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "4"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 4"@fr ;
+  schema:description "Jdrien et ses compagnons se réfugient dans une Atlantide des glaces sous la banquise."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_4_016151> ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise ;
+  schema:hasPart glaces:T4_1, glaces:T4_2, glaces:T4_3, glaces:T4_4 .
+glaces:T4_1 a schema:Book ; schema:name "Station-Fantôme"@fr ; schema:isPartOf glaces:Integrale4 .
+glaces:T4_2 a schema:Book ; schema:name "Les Hommes-Jonas"@fr ; schema:isPartOf glaces:Integrale4 .
+glaces:T4_3 a schema:Book ; schema:name "Terminus Amertume"@fr ; schema:isPartOf glaces:Integrale4 .
+glaces:T4_4 a schema:Book ; schema:name "Les Brûleurs de banquise"@fr ; schema:isPartOf glaces:Integrale4 .
+
+glaces:Integrale5 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "5"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 5"@fr ;
+  schema:description "Le Kid affronte la Compagnie de la Banquise tandis que Lien Rag cherche ses origines."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_5_016152> ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise ;
+  schema:hasPart glaces:T5_1, glaces:T5_2, glaces:T5_3, glaces:T5_4 .
+glaces:T5_1 a schema:Book ; schema:name "Le Gouffre aux garous"@fr ; schema:isPartOf glaces:Integrale5 .
+glaces:T5_2 a schema:Book ; schema:name "Le Dirigeable sacrilège"@fr ; schema:isPartOf glaces:Integrale5 .
+glaces:T5_3 a schema:Book ; schema:name "Liensun"@fr ; schema:isPartOf glaces:Integrale5 .
+glaces:T5_4 a schema:Book ; schema:name "Les Éboueurs de la vie éternelle"@fr ; schema:isPartOf glaces:Integrale5 .
+
+glaces:Integrale6 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "6"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 6"@fr ;
+  schema:description "La disparition de Lien Rag relance les recherches dans un monde ferroviaire dangereux."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_6_016153> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T6_1, glaces:T6_2, glaces:T6_3, glaces:T6_4 .
+glaces:T6_1 a schema:Book ; schema:name "Les Trains-cimetières"@fr ; schema:isPartOf glaces:Integrale6 .
+glaces:T6_2 a schema:Book ; schema:name "Les Fils de Lien Rag"@fr ; schema:isPartOf glaces:Integrale6 .
+glaces:T6_3 a schema:Book ; schema:name "Voyageuse Yeuse"@fr ; schema:isPartOf glaces:Integrale6 .
+glaces:T6_4 a schema:Book ; schema:name "L'Ampoule de cendres"@fr ; schema:isPartOf glaces:Integrale6 .
+
+glaces:Integrale7 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "7"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 7"@fr ;
+  schema:description "Les Rénovateurs du Soleil et les Sibériens s'affrontent dans un univers de banquise."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_7_016154> ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise ;
+  schema:hasPart glaces:T7_1, glaces:T7_2, glaces:T7_3, glaces:T7_4 .
+glaces:T7_1 a schema:Book ; schema:name "Sun Company"@fr ; schema:isPartOf glaces:Integrale7 .
+glaces:T7_2 a schema:Book ; schema:name "Les Sibériens"@fr ; schema:isPartOf glaces:Integrale7 .
+glaces:T7_3 a schema:Book ; schema:name "Le Clochard ferroviaire"@fr ; schema:isPartOf glaces:Integrale7 .
+glaces:T7_4 a schema:Book ; schema:name "Les Wagons-mémoires"@fr ; schema:isPartOf glaces:Integrale7 .
+
+glaces:Integrale8 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "8"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 8"@fr ;
+  schema:description "Yeuse et Gus découvrent une station maudite et les secrets d'une ancienne locomotive."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_8_016155> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T8_1, glaces:T8_2, glaces:T8_3, glaces:T8_4 .
+glaces:T8_1 a schema:Book ; schema:name "Mausolée pour une locomotive"@fr ; schema:isPartOf glaces:Integrale8 .
+glaces:T8_2 a schema:Book ; schema:name "Dans le ventre d'une légende"@fr ; schema:isPartOf glaces:Integrale8 .
+glaces:T8_3 a schema:Book ; schema:name "Les Échafaudages d'épouvante"@fr ; schema:isPartOf glaces:Integrale8 .
+glaces:T8_4 a schema:Book ; schema:name "Les Montagnes affamées"@fr ; schema:isPartOf glaces:Integrale8 .
+
+glaces:Integrale9 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "9"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 9"@fr ;
+  schema:description "Le monde des glaces devient instable tandis que Lien Rag et Kurts réapparaissent."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_9_016156> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T9_1, glaces:T9_2, glaces:T9_3, glaces:T9_4 .
+glaces:T9_1 a schema:Book ; schema:name "La Prodigieuse agonie"@fr ; schema:isPartOf glaces:Integrale9 .
+glaces:T9_2 a schema:Book ; schema:name "On m'appelait Lien Rag"@fr ; schema:isPartOf glaces:Integrale9 .
+glaces:T9_3 a schema:Book ; schema:name "Train spécial pénitentiaire 34"@fr ; schema:isPartOf glaces:Integrale9 .
+glaces:T9_4 a schema:Book ; schema:name "Les Hallucinés de la voie oblique"@fr ; schema:isPartOf glaces:Integrale9 .
+
+glaces:Integrale10 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "10"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 10"@fr ;
+  schema:description "Les Aiguilleurs et le satellite S.A.S. deviennent au cœur des tensions."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_10_016157> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T10_1, glaces:T10_2, glaces:T10_3, glaces:T10_4 .
+glaces:T10_1 a schema:Book ; schema:name "L'Abominable postulat"@fr ; schema:isPartOf glaces:Integrale10 .
+glaces:T10_2 a schema:Book ; schema:name "Le Sang des Ragus"@fr ; schema:isPartOf glaces:Integrale10 .
+glaces:T10_3 a schema:Book ; schema:name "La Caste des Aiguilleurs"@fr ; schema:isPartOf glaces:Integrale10 .
+glaces:T10_4 a schema:Book ; schema:name "Les Exilés du ciel croûteux"@fr ; schema:isPartOf glaces:Integrale10 .
+
+glaces:Integrale11 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "11"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 11"@fr ;
+  schema:description "Le dégel commence et menace l'équilibre du monde ferroviaire."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_11_016158> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T11_1, glaces:T11_2, glaces:T11_3, glaces:T11_4 .
+glaces:T11_1 a schema:Book ; schema:name "Exode barbare"@fr ; schema:isPartOf glaces:Integrale11 .
+glaces:T11_2 a schema:Book ; schema:name "La Chair des étoiles"@fr ; schema:isPartOf glaces:Integrale11 .
+glaces:T11_3 a schema:Book ; schema:name "L'Aube cruelle d'un temps nouveau"@fr ; schema:isPartOf glaces:Integrale11 .
+glaces:T11_4 a schema:Book ; schema:name "Les Canyons du Pacifique"@fr ; schema:isPartOf glaces:Integrale11 .
+
+glaces:Integrale12 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "12"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 12"@fr ;
+  schema:description "La fonte des glaces bouleverse la Compagnie de la Banquise et le destin du Kid."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_12_016159> ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise ;
+  schema:hasPart glaces:T12_1, glaces:T12_2, glaces:T12_3, glaces:T12_4 .
+glaces:T12_1 a schema:Book ; schema:name "Les Vagabonds des brumes"@fr ; schema:isPartOf glaces:Integrale12 .
+glaces:T12_2 a schema:Book ; schema:name "La Banquise déchiquetée"@fr ; schema:isPartOf glaces:Integrale12 .
+glaces:T12_3 a schema:Book ; schema:name "Soleil blême"@fr ; schema:isPartOf glaces:Integrale12 .
+glaces:T12_4 a schema:Book ; schema:name "L'Huile des morts"@fr ; schema:isPartOf glaces:Integrale12 .
+
+glaces:Integrale13 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "13"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 13"@fr ;
+  schema:description "Les compagnons de Lien Rag croisent cargos, brouillards, icebergs et menaces pirates."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_13_016160> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T13_1, glaces:T13_2, glaces:T13_3, glaces:T13_4 .
+glaces:T13_1 a schema:Book ; schema:name "Les Oubliés de Chimère"@fr ; schema:isPartOf glaces:Integrale13 .
+glaces:T13_2 a schema:Book ; schema:name "Les Cargos-Dirigeables du Soleil"@fr ; schema:isPartOf glaces:Integrale13 .
+glaces:T13_3 a schema:Book ; schema:name "La Guilde des sanguinaires"@fr ; schema:isPartOf glaces:Integrale13 .
+glaces:T13_4 a schema:Book ; schema:name "La Croix pirate"@fr ; schema:isPartOf glaces:Integrale13 .
+
+glaces:Integrale14 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "14"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 14"@fr ;
+  schema:description "La fonte oblige les humains à s'adapter à un monde nouveau et instable."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_14_016161> ;
+  dcterms:subject glaces:Glace, glaces:Rail, glaces:Banquise ;
+  schema:hasPart glaces:T14_1, glaces:T14_2, glaces:T14_3, glaces:T14_4 .
+glaces:T14_1 a schema:Book ; schema:name "Le Pays de Djoug"@fr ; schema:isPartOf glaces:Integrale14 .
+glaces:T14_2 a schema:Book ; schema:name "La Banquise de bois"@fr ; schema:isPartOf glaces:Integrale14 .
+glaces:T14_3 a schema:Book ; schema:name "Iceberg-Ship"@fr ; schema:isPartOf glaces:Integrale14 .
+glaces:T14_4 a schema:Book ; schema:name "Lacustra City"@fr ; schema:isPartOf glaces:Integrale14 .
+
+glaces:Integrale15 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "15"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 15"@fr ;
+  schema:description "La guerre s'étend en Patagonie et oppose les Harponneurs aux Hommes du Froid."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_15_016162> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T15_1, glaces:T15_2, glaces:T15_3, glaces:T15_4 .
+glaces:T15_1 a schema:Book ; schema:name "L'Héritage du Bulb"@fr ; schema:isPartOf glaces:Integrale15 .
+glaces:T15_2 a schema:Book ; schema:name "Les Millénaires perdus"@fr ; schema:isPartOf glaces:Integrale15 .
+glaces:T15_3 a schema:Book ; schema:name "La Guerre du Peuple du Froid"@fr ; schema:isPartOf glaces:Integrale15 .
+glaces:T15_4 a schema:Book ; schema:name "Les Tombeaux de l'Antarctique"@fr ; schema:isPartOf glaces:Integrale15 .
+
+glaces:Integrale16 a schema:Book ;
+  schema:isPartOf glaces:LaCompagnieDesGlaces ;
+  schema:author glaces:GeorgesJeanArnaud ;
+  schema:position "16"^^xsd:integer ;
+  schema:name "La Compagnie des glaces, Intégrale 16"@fr ;
+  schema:description "La Terre sort de sa période glaciaire, mais l'avenir de l'humanité reste fragile."@fr ;
+  schema:url <https://booknode.com/la_compagnie_des_glaces_integrale_16_016163> ;
+  dcterms:subject glaces:Glace, glaces:Rail ;
+  schema:hasPart glaces:T16_1, glaces:T16_2, glaces:T16_3 .
+glaces:T16_1 a schema:Book ; schema:name "La Charogne céleste"@fr ; schema:isPartOf glaces:Integrale16 .
+glaces:T16_2 a schema:Book ; schema:name "L'Avenir des dupes"@fr ; schema:isPartOf glaces:Integrale16 .
+glaces:T16_3 a schema:Book ; schema:name "Il était une fois la Compagnie des Glaces"@fr ; schema:isPartOf glaces:Integrale16 .

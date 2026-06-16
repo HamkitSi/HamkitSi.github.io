@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="formation">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- Liste des enseignants -->
+        <xs:element name="enseignants">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="enseignant" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="nom">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="prenom" type="xs:string"/>
+                          <xs:element name="nom_de_famille" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+                    <xs:element name="corps" type="xs:string"/>
+
+                    <xs:element name="discipline" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                          <xs:minInclusive value="1"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                  </xs:sequence>
+
+                  <xs:attribute name="id_enseignant" type="xs:ID" use="required"/>
+
+                  <xs:attribute name="sexe" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="M"/>
+                        <xs:enumeration value="F"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Liste des modules -->
+        <xs:element name="modules">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="module" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="intitule" type="xs:string"/>
+
+                    <xs:element name="credits">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                          <xs:minInclusive value="1"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                    <xs:element name="enseignants">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="id_enseignant" maxOccurs="unbounded">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string"/>
+                            </xs:simpleType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+                  </xs:sequence>
+
+                  <xs:attribute name="code_module" type="xs:string" use="required"/>
+
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+
+      <xs:attribute name="code_formation" type="xs:string" use="required"/>
+
+    </xs:complexType>
+
+    <!-- Clé : chaque enseignant déclaré doit avoir un identifiant unique -->
+    <xs:key name="cle_enseignant">
+      <xs:selector xpath="enseignants/enseignant"/>
+      <xs:field xpath="@id_enseignant"/>
+    </xs:key>
+
+    <!-- Référence : les enseignants des modules doivent exister dans la liste -->
+    <xs:keyref name="ref_enseignant_module" refer="cle_enseignant">
+      <xs:selector xpath="modules/module/enseignants/id_enseignant"/>
+      <xs:field xpath="."/>
+    </xs:keyref>
+
+  </xs:element>
+
+</xs:schema>

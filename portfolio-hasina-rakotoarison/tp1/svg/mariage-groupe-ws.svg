@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Faire-part de mariage du groupe WS</title>
+  <desc id="desc">Animation SVG de 5 secondes : les branches XML, RDF et SPARQL se rejoignent pour créer le groupe.</desc>
+  <rect width="900" height="520" fill="#fbf6ec"/>
+  <circle cx="450" cy="250" r="180" fill="#fffdf7" stroke="#d8c6a3" stroke-width="6"/>
+  <g transform="translate(450 360)">
+    <path d="M0 0 C-35 -80 -130 -90 -190 -145" stroke="#6b4a2b" stroke-width="20" fill="none" stroke-linecap="round">
+      <animate attributeName="stroke-width" values="12;20;12" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 0 C35 -80 130 -90 190 -145" stroke="#6b4a2b" stroke-width="20" fill="none" stroke-linecap="round">
+      <animate attributeName="stroke-width" values="20;12;20" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 0 C0 -100 0 -150 0 -220" stroke="#6b4a2b" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <g fill="#2f6b3f">
+      <ellipse cx="-215" cy="-160" rx="62" ry="34" transform="rotate(-18 -215 -160)">
+        <animateTransform attributeName="transform" type="rotate" values="-18 -215 -160; -8 -215 -160; -18 -215 -160" dur="5s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="215" cy="-160" rx="62" ry="34" transform="rotate(18 215 -160)">
+        <animateTransform attributeName="transform" type="rotate" values="18 215 -160; 8 215 -160; 18 215 -160" dur="5s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="-245" rx="72" ry="42"/>
+    </g>
+  </g>
+  <g transform="translate(450 210)">
+    <circle cx="-35" cy="0" r="42" fill="none" stroke="#d8a84f" stroke-width="10"/>
+    <circle cx="35" cy="0" r="42" fill="none" stroke="#d8a84f" stroke-width="10"/>
+    <animateTransform attributeName="transform" type="translate" values="450 190;450 210;450 190" dur="5s" repeatCount="indefinite"/>
+  </g>
+  <text x="450" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#2f6b3f" font-weight="bold">Faire-part de groupe</text>
+  <text x="450" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#6b4a2b">XML épouse RDF, SPARQL apporte les alliances.</text>
+  <text x="450" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#2b2118">Bienvenue au groupe WS de Hasina — INFOA2</text>
+  <text x="450" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6b4a2b">Animation SVG : durée 5 s, boucle infinie</text>
+</svg>

@@ -1,0 +1,30 @@
+# Requêtes SPARQL à tester dans Corese
+PREFIX glaces: <https://hamkitsi.github.io/rdf-corese/glaces#>
+PREFIX schema: <https://schema.org/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+# 1. Lister les intégrales dans l'ordre
+SELECT ?position ?album WHERE {
+  ?album a schema:Book ;
+         schema:isPartOf glaces:LaCompagnieDesGlaces ;
+         schema:position ?position .
+}
+ORDER BY ?position
+
+# 2. Compter les intégrales
+SELECT (COUNT(?album) AS ?nombreAlbums) WHERE {
+  ?album a schema:Book ; schema:isPartOf glaces:LaCompagnieDesGlaces ; schema:position ?position .
+}
+
+# 3. Trouver les titres contenant « glace »
+SELECT ?titre WHERE {
+  ?volume schema:hasPart ?livre .
+  ?livre schema:name ?titre .
+  FILTER(CONTAINS(LCASE(STR(?titre)), "glace"))
+}
+
+# 4. Trouver les albums reliés au thème Banquise
+SELECT ?album ?nom WHERE {
+  ?album dcterms:subject glaces:Banquise ; schema:name ?nom .
+}
+ORDER BY ?album

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#fbf6ec"/>
+  <rect x="90" y="80" width="1100" height="560" rx="35" fill="#fffdf7" stroke="#d8c6a3" stroke-width="10"/>
+  <circle cx="640" cy="330" r="110" fill="#2f6b3f"/>
+  <polygon points="610,270 610,390 710,330" fill="#fffdf7"/>
+  <text x="640" y="520" text-anchor="middle" font-family="Georgia" font-size="48" fill="#2f6b3f">Portfolio Web sémantique</text>
+</svg>

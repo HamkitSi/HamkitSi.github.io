@@ -1,0 +1,104 @@
+Réponses XPath — La Compagnie des glaces
+=========================================
+
+Fichier de départ : tp1/compagnie.xml
+Nombre d'albums : 16
+Nombre de titres contenus dans les albums : 63
+
+1) Liste de tous les titres
+XPath : //titre
+Résultat :
+- La Compagnie des glaces
+- Le Sanctuaire des glaces
+- Le Peuple des glaces
+- Les Chasseurs des glaces
+- L'Enfant des glaces
+- Les Otages des Glaces
+- Le Gnome halluciné
+- La Compagnie de la Banquise
+- Le Réseau de Patagonie
+- Les Voiliers du rail
+- Les Fous du soleil
+- Cancer-Network
+- Station-Fantôme
+- Les Hommes-Jonas
+- Terminus Amertume
+- Les Brûleurs de banquise
+- Le Gouffre aux garous
+- Le Dirigeable sacrilège
+- Liensun
+- Les Éboueurs de la vie éternelle
+- Les Trains-cimetières
+- Les Fils de Lien Rag
+- Voyageuse Yeuse
+- L'Ampoule de cendres
+- Sun Company
+- Les Sibériens
+- Le Clochard ferroviaire
+- Les Wagons-mémoires
+- Mausolée pour une locomotive
+- Dans le ventre d'une légende
+- Les Échafaudages d'épouvante
+- Les Montagnes affamées
+- La Prodigieuse agonie
+- On m'appelait Lien Rag
+- Train spécial pénitentiaire 34
+- Les Hallucinés de la voie oblique
+- L'Abominable postulat
+- Le Sang des Ragus
+- La Caste des Aiguilleurs
+- Les Exilés du ciel croûteux
+- Exode barbare
+- La Chair des étoiles
+- L'Aube cruelle d'un temps nouveau
+- Les Canyons du Pacifique
+- Les Vagabonds des brumes
+- La Banquise déchiquetée
+- Soleil blême
+- L'Huile des morts
+- Les Oubliés de Chimère
+- Les Cargos-Dirigeables du Soleil
+- La Guilde des sanguinaires
+- La Croix pirate
+- Le Pays de Djoug
+- La Banquise de bois
+- Iceberg-Ship
+- Lacustra City
+- L'Héritage du Bulb
+- Les Millénaires perdus
+- La Guerre du Peuple du Froid
+- Les Tombeaux de l'Antarctique
+- La Charogne céleste
+- L'Avenir des dupes
+- Il était une fois la Compagnie des Glaces
+
+2) Nombre de tomes
+XPath : count(//album)
+Résultat : 16
+
+3) Nombre de titres contenant la chaîne « glace »
+XPath : count(//titre[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊËÀÂÄÇ', 'abcdefghijklmnopqrstuvwxyzéèêëàâäç'), 'glace')])
+Résultat : 7
+
+4) Titres des albums qui parlent de banquise
+XPath : //album[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊËÀÂÄÇ', 'abcdefghijklmnopqrstuvwxyzéèêëàâäç'), 'banquise')]/nom
+Résultat :
+- Tome 2 : La Compagnie des glaces, Intégrale 2
+- Tome 4 : La Compagnie des glaces, Intégrale 4
+- Tome 5 : La Compagnie des glaces, Intégrale 5
+- Tome 7 : La Compagnie des glaces, Intégrale 7
+- Tome 12 : La Compagnie des glaces, Intégrale 12
+- Tome 14 : La Compagnie des glaces, Intégrale 14
+
+5) Nombre d'albums contenant un mot du domaine du froid
+Mots choisis : glace, neige, banquise, froid, iceberg, glaciaire, dégel, gel, antarctique, sibérien, brume.
+Résultat : 16
+
+6) Nombre de titres par nombre de mots
+- 1 mot(s) : 4 titre(s)
+- 2 mot(s) : 11 titre(s)
+- 3 mot(s) : 15 titre(s)
+- 4 mot(s) : 24 titre(s)
+- 5 mot(s) : 5 titre(s)
+- 6 mot(s) : 3 titre(s)
+- 8 mot(s) : 1 titre(s)

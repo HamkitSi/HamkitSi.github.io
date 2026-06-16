@@ -1,0 +1,12 @@
+<!ELEMENT enseignants (enseignant+)>
+
+<!ELEMENT enseignant (prenom, nom, note?, tel?, labo, equipe?)>
+<!ATTLIST enseignant sexe (m|f) #REQUIRED>
+
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT note (#PCDATA|b)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT labo (#PCDATA)>
+<!ELEMENT equipe (#PCDATA)>

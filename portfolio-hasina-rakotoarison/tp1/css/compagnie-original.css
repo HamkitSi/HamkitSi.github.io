@@ -1,0 +1,47 @@
+catalogue {
+  display: block;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+album {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+vignette {
+  display: block;
+  width: 120px;
+  height: 160px;
+  margin-right: 15px;
+}
+
+nom {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+resume {
+  display: block;
+  margin-bottom: 8px;
+}
+
+lien {
+  display: block;
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+titres {
+  display: block;
+}
+
+titre {
+  display: list-item;
+  margin-left: 20px;
+}

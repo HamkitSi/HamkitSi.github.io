@@ -1,0 +1,9 @@
+<!ELEMENT catalogue (album+)>
+<!ELEMENT album (nom, vignette, resume, lien, titres)>
+<!ATTLIST album numero CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT vignette (#PCDATA)>
+<!ELEMENT resume (#PCDATA)>
+<!ELEMENT lien (#PCDATA)>
+<!ELEMENT titres (titre+)>
+<!ELEMENT titre (#PCDATA)>

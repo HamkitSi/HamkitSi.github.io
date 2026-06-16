@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="300" viewBox="0 0 220 300" role="img" aria-label="Couverture symbolique La Compagnie des glaces">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef8ff"/>
+      <stop offset="1" stop-color="#c7e1ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="300" rx="16" fill="url(#g)"/>
+  <rect x="18" y="18" width="184" height="264" rx="12" fill="none" stroke="#2f6b3f" stroke-width="5"/>
+  <path d="M18 215 C55 180 85 228 120 195 S180 185 202 160 V282 H18Z" fill="#fbf6ec" opacity=".95"/>
+  <path d="M38 166 H178" stroke="#6b4a2b" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="72" cy="180" r="14" fill="#6b4a2b"/>
+  <circle cx="150" cy="180" r="14" fill="#6b4a2b"/>
+  <text x="110" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2f6b3f" font-weight="bold">Compagnie</text>
+  <text x="110" y="102" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2f6b3f" font-weight="bold">des glaces</text>
+  <text x="110" y="260" text-anchor="middle" font-family="Arial" font-size="13" fill="#6b4a2b">vignette de démonstration</text>
+</svg>

@@ -1,0 +1,20 @@
+<arbre>
+    <tronc>
+    <branche>
+    <feuille/>
+    </branche>
+    </tronc>
+</arbre>
+
+<!-- Il ne peut y avoir plusieurs racines dans un seul fichier xml. Or arbre est déja une racine correcte
+<arbre>
+<tronc/>
+</arbre>
+<arbre>
+<tronc>
+<branche>
+<feuille/>
+</branche>
+</tronc>
+</arbre>
+-->

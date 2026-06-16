@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Trucage SVG humoristique : La Compagnie des glaces</title>
+  <desc id="desc">Affiche de magazine humoristique apolitique combinant deux images SVG : un train et un pingouin.</desc>
+  <rect width="900" height="560" fill="#fbf6ec"/>
+  <rect x="55" y="45" width="790" height="470" rx="24" fill="#fffdf7" stroke="#6b4a2b" stroke-width="5"/>
+  <text x="450" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#2f6b3f" font-weight="bold">Magazine Glaçon</text>
+  <text x="450" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#6b4a2b">Détournement apolitique et respectueux</text>
+  <image href="train.svg" x="225" y="210" width="430" height="230"/>
+  <image href="pingouin.svg" x="565" y="178" width="150" height="190"/>
+  <path d="M220 422 C330 394 420 444 520 410 S710 390 810 430 V515 H90 V450 C130 440 170 435 220 422Z" fill="#dff3f8" opacity=".9"/>
+  <text x="450" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#2b2118" font-weight="bold">La Compagnie des glaces annonce :</text>
+  <text x="450" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#2f6b3f" font-weight="bold">« Chauffage en panne, mais ambiance polaire garantie ! »</text>
+  <text x="450" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#6b4a2b">Images SVG combinées : train.svg + pingouin.svg</text>
+</svg>

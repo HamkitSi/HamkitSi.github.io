@@ -1,0 +1,19 @@
+<foret>
+    <arbre>
+        <tronc>
+        <branche>
+        <feuille/>
+        </branche>
+        </tronc>
+    </arbre>
+    <arbre>
+        <tronc>
+        <branche>
+        <branche>
+        <branche>
+        <feuille>
+        </branche>
+        </branche>
+        </branche> <!-- Il manquait une fermeture pour la balise branche-->
+    </arbre>
+</foret>

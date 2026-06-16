@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="enseignement.xsl"?>
+
+<enseignants>
+  <enseignant sexe="m">
+    <prenom>Pascal</prenom>
+    <nom>Vaillant</nom>
+    <note>&#xC7;a, c'est <b>moi</b>&#xA0;!</note>
+    <tel>0148387307</tel>
+    <labo>LIMICS</labo>
+  </enseignant>
+  <enseignant sexe="f">
+    <prenom>Sophie</prenom>
+    <nom>Toulouse</nom>
+    <note>Super-Sophie</note>
+    <labo>LIPN</labo>
+    <equipe>AOC</equipe>
+  </enseignant>
+  <enseignant sexe="m">
+    <prenom>J&#xE9;r&#xF4;me</prenom>
+    <nom>Nob&#xE9;court</nom>
+    <note>Super-J&#xE9;r&#xF4;me</note>
+    <labo>LIMICS</labo>
+  </enseignant>
+  <enseignant sexe="m">
+    <prenom>Thierry</prenom>
+    <nom>Hamon</nom>
+    <note>Il est tr&#xE8;s fort Thierry</note>
+    <labo>LIMSI</labo>
+  </enseignant>
+  <enseignant sexe="m">
+    <prenom>Khaled</prenom>
+    <nom>Boussetta</nom>
+    <labo>L2TI</labo>
+  </enseignant>
+  <enseignant sexe="f">
+    <prenom>C&#xE9;line</prenom>
+    <nom>Rouveirol</nom>
+    <note>C'est logique</note>
+    <labo>LIPN</labo>
+    <equipe>A3</equipe>
+  </enseignant>
+  <enseignant sexe="m">
+    <prenom>Franck</prenom>
+    <nom>Butelle</nom>
+    <labo>LIPN</labo>
+    <equipe>AOC</equipe>
+  </enseignant>
+</enseignants>

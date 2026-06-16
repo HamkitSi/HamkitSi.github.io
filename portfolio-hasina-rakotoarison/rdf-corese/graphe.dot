@@ -1,0 +1,22 @@
+digraph glaces {
+  graph [bgcolor="transparent", rankdir=LR];
+  node [shape=box, style="rounded,filled", fillcolor="#fffdf7", color="#6b4a2b", fontname="Arial"];
+  edge [color="#2f6b3f", fontname="Arial"];
+  Serie [label="La Compagnie des glaces
+(schema:BookSeries)"];
+  Auteur [label="Georges-Jean Arnaud
+(schema:Person)"];
+  Integrale1 [label="Intégrale 1
+(schema:Book)"];
+  Integrale2 [label="Intégrale 2
+(schema:Book)"];
+  Banquise [label="Banquise
+(schema:DefinedTerm)"];
+  Rail [label="Rail
+(schema:DefinedTerm)"];
+  Serie -> Auteur [label="schema:author"];
+  Integrale1 -> Serie [label="schema:isPartOf"];
+  Integrale2 -> Serie [label="schema:isPartOf"];
+  Integrale2 -> Banquise [label="dcterms:subject"];
+  Integrale1 -> Rail [label="dcterms:subject"];
+}

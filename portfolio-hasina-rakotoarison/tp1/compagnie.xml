@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="compagnie.xsl"?>
+<catalogue>
+  <album numero="1">
+    <nom>La Compagnie des glaces, Intégrale 1</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-1-3714322.jpg</vignette>
+    <resume>Sur une Terre envahie par les glaces, Lien Rag découvre les secrets des grandes compagnies ferroviaires.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_1_0111973</lien>
+    <titres>
+      <titre>La Compagnie des glaces</titre>
+      <titre>Le Sanctuaire des glaces</titre>
+      <titre>Le Peuple des glaces</titre>
+      <titre>Les Chasseurs des glaces</titre>
+    </titres>
+  </album>
+
+  <album numero="2">
+    <nom>La Compagnie des glaces, Intégrale 2</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-2-951404.jpg</vignette>
+    <resume>Lien Rag et son fils Jdrien deviennent des personnages centraux dans le monde glacé du rail.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_2_016149</lien>
+    <titres>
+      <titre>L'Enfant des glaces</titre>
+      <titre>Les Otages des Glaces</titre>
+      <titre>Le Gnome halluciné</titre>
+      <titre>La Compagnie de la Banquise</titre>
+    </titres>
+  </album>
+
+  <album numero="3">
+    <nom>La Compagnie des glaces, Intégrale 3</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-3-207469.jpg</vignette>
+    <resume>Lien Rag entre en dissidence tandis que la Patagonie souffre du froid et de la faim.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_3_016150</lien>
+    <titres>
+      <titre>Le Réseau de Patagonie</titre>
+      <titre>Les Voiliers du rail</titre>
+      <titre>Les Fous du soleil</titre>
+      <titre>Cancer-Network</titre>
+    </titres>
+  </album>
+
+  <album numero="4">
+    <nom>La Compagnie des glaces, Intégrale 4</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-4-207474.jpg</vignette>
+    <resume>Jdrien et ses compagnons se réfugient dans une Atlantide des glaces sous la banquise.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_4_016151</lien>
+    <titres>
+      <titre>Station-Fantôme</titre>
+      <titre>Les Hommes-Jonas</titre>
+      <titre>Terminus Amertume</titre>
+      <titre>Les Brûleurs de banquise</titre>
+    </titres>
+  </album>
+
+  <album numero="5">
+    <nom>La Compagnie des glaces, Intégrale 5</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-5-207479.jpg</vignette>
+    <resume>Le Kid affronte la Compagnie de la Banquise tandis que Lien Rag cherche ses origines.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_5_016152</lien>
+    <titres>
+      <titre>Le Gouffre aux garous</titre>
+      <titre>Le Dirigeable sacrilège</titre>
+      <titre>Liensun</titre>
+      <titre>Les Éboueurs de la vie éternelle</titre>
+    </titres>
+  </album>
+
+  <album numero="6">
+    <nom>La Compagnie des glaces, Intégrale 6</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-6-207483.jpg</vignette>
+    <resume>La disparition de Lien Rag relance les recherches dans un monde ferroviaire dangereux.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_6_016153</lien>
+    <titres>
+      <titre>Les Trains-cimetières</titre>
+      <titre>Les Fils de Lien Rag</titre>
+      <titre>Voyageuse Yeuse</titre>
+      <titre>L'Ampoule de cendres</titre>
+    </titres>
+  </album>
+
+  <album numero="7">
+    <nom>La Compagnie des glaces, Intégrale 7</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-7-207485.jpg</vignette>
+    <resume>Les Rénovateurs du Soleil et les Sibériens s'affrontent dans un univers de banquise.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_7_016154</lien>
+    <titres>
+      <titre>Sun Company</titre>
+      <titre>Les Sibériens</titre>
+      <titre>Le Clochard ferroviaire</titre>
+      <titre>Les Wagons-mémoires</titre>
+    </titres>
+  </album>
+
+  <album numero="8">
+    <nom>La Compagnie des glaces, Intégrale 8</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-8-207487.jpg</vignette>
+    <resume>Yeuse et Gus découvrent une station maudite et les secrets d'une ancienne locomotive.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_8_016155</lien>
+    <titres>
+      <titre>Mausolée pour une locomotive</titre>
+      <titre>Dans le ventre d'une légende</titre>
+      <titre>Les Échafaudages d'épouvante</titre>
+      <titre>Les Montagnes affamées</titre>
+    </titres>
+  </album>
+
+  <album numero="9">
+    <nom>La Compagnie des glaces, Intégrale 9</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-9-207488.jpg</vignette>
+    <resume>Le monde des glaces devient instable tandis que Lien Rag et Kurts réapparaissent.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_9_016156</lien>
+    <titres>
+      <titre>La Prodigieuse agonie</titre>
+      <titre>On m'appelait Lien Rag</titre>
+      <titre>Train spécial pénitentiaire 34</titre>
+      <titre>Les Hallucinés de la voie oblique</titre>
+    </titres>
+  </album>
+
+  <album numero="10">
+    <nom>La Compagnie des glaces, Intégrale 10</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-10-207494.jpg</vignette>
+    <resume>Les Aiguilleurs et le satellite S.A.S. deviennent au cœur des tensions.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_10_016157</lien>
+    <titres>
+      <titre>L'Abominable postulat</titre>
+      <titre>Le Sang des Ragus</titre>
+      <titre>La Caste des Aiguilleurs</titre>
+      <titre>Les Exilés du ciel croûteux</titre>
+    </titres>
+  </album>
+
+  <album numero="11">
+    <nom>La Compagnie des glaces, Intégrale 11</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-11-207495.jpg</vignette>
+    <resume>Le dégel commence et menace l'équilibre du monde ferroviaire.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_11_016158</lien>
+    <titres>
+      <titre>Exode barbare</titre>
+      <titre>La Chair des étoiles</titre>
+      <titre>L'Aube cruelle d'un temps nouveau</titre>
+      <titre>Les Canyons du Pacifique</titre>
+    </titres>
+  </album>
+
+  <album numero="12">
+    <nom>La Compagnie des glaces, Intégrale 12</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-12-207496.jpg</vignette>
+    <resume>La fonte des glaces bouleverse la Compagnie de la Banquise et le destin du Kid.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_12_016159</lien>
+    <titres>
+      <titre>Les Vagabonds des brumes</titre>
+      <titre>La Banquise déchiquetée</titre>
+      <titre>Soleil blême</titre>
+      <titre>L'Huile des morts</titre>
+    </titres>
+  </album>
+
+  <album numero="13">
+    <nom>La Compagnie des glaces, Intégrale 13</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-13-207498.jpg</vignette>
+    <resume>Les compagnons de Lien Rag croisent cargos, brouillards, icebergs et menaces pirates.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_13_016160</lien>
+    <titres>
+      <titre>Les Oubliés de Chimère</titre>
+      <titre>Les Cargos-Dirigeables du Soleil</titre>
+      <titre>La Guilde des sanguinaires</titre>
+      <titre>La Croix pirate</titre>
+    </titres>
+  </album>
+
+  <album numero="14">
+    <nom>La Compagnie des glaces, Intégrale 14</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-14-207499.jpg</vignette>
+    <resume>La fonte oblige les humains à s'adapter à un monde nouveau et instable.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_14_016161</lien>
+    <titres>
+      <titre>Le Pays de Djoug</titre>
+      <titre>La Banquise de bois</titre>
+      <titre>Iceberg-Ship</titre>
+      <titre>Lacustra City</titre>
+    </titres>
+  </album>
+
+  <album numero="15">
+    <nom>La Compagnie des glaces, Intégrale 15</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-15-207500.jpg</vignette>
+    <resume>La guerre s'étend en Patagonie et oppose les Harponneurs aux Hommes du Froid.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_15_016162</lien>
+    <titres>
+      <titre>L'Héritage du Bulb</titre>
+      <titre>Les Millénaires perdus</titre>
+      <titre>La Guerre du Peuple du Froid</titre>
+      <titre>Les Tombeaux de l'Antarctique</titre>
+    </titres>
+  </album>
+
+  <album numero="16">
+    <nom>La Compagnie des glaces, Intégrale 16</nom>
+    <vignette>images/la-compagnie-des-glaces-integrale-16-207501.jpg</vignette>
+    <resume>La Terre sort de sa période glaciaire, mais l'avenir de l'humanité reste fragile.</resume>
+    <lien>https://booknode.com/la_compagnie_des_glaces_integrale_16_016163</lien>
+    <titres>
+      <titre>La Charogne céleste</titre>
+      <titre>L'Avenir des dupes</titre>
+      <titre>Il était une fois la Compagnie des Glaces</titre>
+    </titres>
+  </album>
+</catalogue>

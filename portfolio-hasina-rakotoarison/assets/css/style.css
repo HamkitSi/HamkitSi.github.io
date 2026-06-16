@@ -1,0 +1,94 @@
+/* Portfolio Hasina RAKOTOARISON — palette forêt */
+:root {
+  --fond: #fbf6ec;
+  --papier: #fffdf7;
+  --vert: #2f6b3f;
+  --vert-clair: #8fae72;
+  --marron: #6b4a2b;
+  --marron-clair: #d8c6a3;
+  --texte: #2b2118;
+  --ombre: 0 18px 48px rgba(61, 43, 23, .13);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--texte);
+  background:
+    radial-gradient(circle at top left, rgba(143,174,114,.23), transparent 32rem),
+    linear-gradient(180deg, var(--fond), #f4ead8);
+  line-height: 1.65;
+}
+a { color: #245f3b; }
+a:focus, button:focus { outline: 3px solid #8fae72; outline-offset: 3px; }
+.skip-link {
+  position: absolute; left: -999px; top: .5rem; background: var(--vert); color: white;
+  padding: .75rem 1rem; border-radius: .75rem; z-index: 20;
+}
+.skip-link:focus { left: .5rem; }
+.lang-switcher {
+  position: fixed; right: 1rem; top: 1rem; z-index: 10;
+  display: flex; gap: .35rem; padding: .4rem; border-radius: 999px;
+  background: rgba(255,253,247,.92); border: 1px solid var(--marron-clair); box-shadow: var(--ombre);
+}
+.lang-switcher a, .lang-switcher button {
+  border: 0; border-radius: 999px; padding: .45rem .7rem; background: transparent;
+  color: var(--marron); text-decoration: none; font-weight: 700; cursor: pointer;
+}
+.lang-switcher .active, .lang-switcher a:hover, .lang-switcher button:hover { background: var(--vert); color: white; }
+.site-header {
+  max-width: 1180px; margin: 0 auto; padding: 7rem 1.25rem 2rem;
+}
+.hero {
+  display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(260px, .85fr); gap: 2rem; align-items: center;
+}
+.badge, .pill {
+  display: inline-flex; align-items: center; gap: .4rem;
+  background: #edf4e8; color: var(--vert); border: 1px solid #c9d9be;
+  border-radius: 999px; padding: .35rem .75rem; font-weight: 700; font-size: .92rem;
+}
+h1 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2.4rem, 7vw, 5.3rem); line-height: .98; color: var(--vert); margin: 1rem 0; }
+h2 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.7rem, 3.2vw, 2.8rem); color: var(--vert); line-height: 1.1; }
+h3 { color: var(--marron); font-size: 1.22rem; }
+.lead { font-size: 1.2rem; max-width: 72ch; }
+.hero-card, .card, .stat, .album-card {
+  background: rgba(255,253,247,.94); border: 1px solid var(--marron-clair); border-radius: 1.4rem; box-shadow: var(--ombre);
+}
+.hero-card { padding: 1.4rem; }
+.tree-illustration { width: 100%; height: auto; display: block; }
+.navbar {
+  max-width: 1180px; margin: 0 auto; padding: 0 1.25rem 1.5rem;
+}
+.navbar ul { list-style: none; display: flex; flex-wrap: wrap; gap: .6rem; padding: 0; margin: 0; }
+.navbar a { display: block; text-decoration: none; color: var(--texte); background: var(--papier); border: 1px solid var(--marron-clair); border-radius: 999px; padding: .55rem .85rem; }
+.navbar a:hover { background: var(--vert); color: white; }
+main { max-width: 1180px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+.section { padding: 2rem 0; scroll-margin-top: 5.5rem; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.card { padding: 1.25rem; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+.stat { padding: 1rem; }
+.stat strong { display: block; font-size: 2rem; color: var(--vert); }
+pre { background: #2b2118; color: #fff8e8; padding: 1rem; border-radius: 1rem; overflow: auto; line-height: 1.45; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.table-wrap { overflow-x: auto; border-radius: 1rem; border: 1px solid var(--marron-clair); background: var(--papier); }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .85rem; border-bottom: 1px solid #eadfc9; text-align: left; vertical-align: top; }
+th { background: #edf4e8; color: var(--vert); }
+.link-list { display: flex; flex-wrap: wrap; gap: .7rem; padding: 0; list-style: none; }
+.link-list a, .button-link { display: inline-block; border-radius: .8rem; background: var(--vert); color: white; padding: .65rem .9rem; text-decoration: none; font-weight: 700; }
+.link-list a.secondary, .button-link.secondary { background: #fffdf7; color: var(--marron); border: 1px solid var(--marron-clair); }
+.video-box video { width: 100%; border-radius: 1.2rem; border: 1px solid var(--marron-clair); background: #000; }
+.album-grid { display: grid; gap: 1rem; }
+.album-card { display: grid; grid-template-columns: 120px 1fr; gap: 1rem; padding: 1rem; }
+.album-card img { width: 120px; border-radius: .8rem; border: 1px solid var(--marron-clair); }
+.svg-frame { width: 100%; min-height: 300px; border: 1px solid var(--marron-clair); border-radius: 1rem; background: white; }
+.site-footer { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--marron-clair); color: var(--marron); }
+.page-shell { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+.subpage { background: var(--fond); }
+@media (max-width: 850px) {
+  .hero, .grid, .stats { grid-template-columns: 1fr; }
+  .site-header { padding-top: 6rem; }
+  .album-card { grid-template-columns: 1fr; }
+}

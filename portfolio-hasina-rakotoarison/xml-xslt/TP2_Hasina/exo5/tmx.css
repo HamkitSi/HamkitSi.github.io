@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.45;
+  color: #222;
+  background: #f5f6f8;
+}
+
+main {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.entete,
+.infos,
+.contenu {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.sur-titre {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.intro {
+  max-width: 850px;
+}
+
+.infos dl {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 10px 16px;
+  margin: 0;
+}
+
+.infos dt {
+  font-weight: bold;
+}
+
+.infos dd {
+  margin: 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 0 6px 6px 0;
+  border-radius: 999px;
+  background: #edf0f5;
+  font-size: 0.85rem;
+}
+
+.tmx {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: white;
+}
+
+.tmx th,
+.tmx td {
+  border: 1px solid #d9dce2;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.tmx th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #eef1f7;
+  text-align: left;
+}
+
+.tmx th span {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: normal;
+}
+
+.tmx tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.numero {
+  width: 42px;
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+}
+
+.manquant {
+  color: #999;
+  font-style: italic;
+}
+
+@media (max-width: 850px) {
+  main {
+    padding: 12px;
+  }
+
+  .infos dl {
+    grid-template-columns: 1fr;
+  }
+
+  .tmx {
+    table-layout: auto;
+    font-size: 0.9rem;
+  }
+}

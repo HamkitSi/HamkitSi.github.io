@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="catalogue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="album" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string"/>
+              <xs:element name="vignette" type="xs:string"/>
+              <xs:element name="resume" type="xs:string"/>
+              <xs:element name="lien" type="xs:anyURI"/>
+              <xs:element name="titres">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="titre" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="numero" type="xs:positiveInteger" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

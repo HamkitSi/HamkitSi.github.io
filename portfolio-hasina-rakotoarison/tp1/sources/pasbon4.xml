@@ -1,0 +1,20 @@
+<foret>
+    <arbre>
+        <tronc>
+        <branche>
+        <feuille/>
+        </branche>
+        </tronc>
+    </arbre>
+    un sentier
+    <arbre>
+        <tronc>
+        <branche>
+        <branche>
+        <feuille/>
+        </branche>
+        </branche>
+        </tronc>
+    </arbre>
+</foret>
+<!-- un chemin Ce texte rend le fichier incorrect car il est en dehors de balises. Un texte peut exister entre deux balise-->
