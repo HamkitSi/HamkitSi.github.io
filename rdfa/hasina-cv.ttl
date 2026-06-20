@@ -1,0 +1,48 @@
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://hamkitsi.github.io/cv-rdfa.html>
+    a schema:ProfilePage, foaf:Document ;
+    dcterms:title "CV RDFa — Hasina RAKOTOARISON"@fr ;
+    dcterms:creator <https://hamkitsi.github.io/#hasina> ;
+    dcterms:subject "CV", "RDFa", "Web sémantique"@fr .
+
+<https://hamkitsi.github.io/#hasina>
+    a schema:Person, foaf:Person ;
+    schema:givenName "Hasina" ;
+    schema:familyName "Rakotoarison" ;
+    schema:name "Hasina Rakotoarison" ;
+    foaf:name "Hasina Rakotoarison" ;
+    schema:jobTitle "Computer Engineering Apprentice"@en ;
+    schema:email <mailto:hasinasitrakar23@gmail.com> ;
+    schema:telephone "+33765270721" ;
+    schema:address [ a schema:PostalAddress ; schema:addressCountry "France" ] ;
+    schema:url <https://hamkitsi.github.io/> ;
+    schema:alumniOf <https://www.univ-artois.fr/>, <https://www.univ-spn.fr/> ;
+    schema:worksFor <https://www.grdf.fr/>, <https://www.gehealthcare.com/> ;
+    schema:knowsAbout "XML", "XSD", "XSLT", "RDF", "RDFa", "SPARQL", "Corese", "Java", "Python", "JavaScript", "Database Management", "Web Development" .
+
+<https://www.univ-artois.fr/>
+    a schema:CollegeOrUniversity ;
+    schema:name "University of Artois" ;
+    schema:description "1st and 2nd years of Bachelor’s degree"@en .
+
+<https://www.univ-spn.fr/>
+    a schema:CollegeOrUniversity ;
+    schema:name "University of Sorbonne Paris Nord" ;
+    schema:description "Software Engineer curriculum"@en .
+
+<https://www.grdf.fr/>
+    a schema:Organization ;
+    schema:name "GRDF" ;
+    schema:department "Information Systems Department" ;
+    schema:description "IT Product Manager Apprentice: middleware administration, ServiceNow, change and incident backlog, project committees."@en .
+
+<https://www.gehealthcare.com/>
+    a schema:Organization ;
+    schema:name "GE Healthcare" ;
+    schema:department "Interventional Software Apps" ;
+    schema:description "Software Engineer Apprentice: dashboards, real-time metrics, web prototype for volumetric medical image reconstruction and visualization."@en .

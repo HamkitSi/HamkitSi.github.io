@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" dir="ltr" itemscope="itemscope" itemtype="https://schema.org/ProfilePage">
+<html lang="fr" dir="ltr" itemscope="itemscope" itemtype="https://schema.org/ProfilePage" prefix="schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ org: http://www.w3.org/ns/org# xsd: http://www.w3.org/2001/XMLSchema#">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,6 +57,8 @@
         <li><a href="#compagnie">Compagnie</a></li>
         <li><a href="#svg">SVG</a></li>
         <li><a href="#xslt">XML/XSLT</a></li>
+        <li><a href="#cv-rdfa">CV</a></li>
+        <li><a href="#rapports">TP3-TP5</a></li>
         <li><a href="#rdf">RDF/Corese</a></li>
         <li><a href="#validation">Validation</a></li>
       </ul>
@@ -183,6 +185,44 @@ java -jar -Dfile.encoding=UTF8 corese.jar</code></pre>
       </div>
     </section>
 
+
+    <section id="cv-rdfa" class="section" aria-labelledby="cv-rdfa-title" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person">
+      <h2 id="cv-rdfa-title">CV</h2>
+      <p class="lead">J’ai ajouté un CV lisible par un humain et annoté en RDFa. Les parties importantes — identité, contact, formation, expériences, compétences — sont taguées avec <code>schema.org</code>, <code>foaf</code>, <code>Dublin Core</code> et <code>ORG</code>.</p>
+      <div class="grid">
+        <article class="card">
+          <h3 property="schema:name foaf:name">Hasina Rakotoarison</h3>
+          <meta property="schema:givenName" content="Hasina" />
+          <meta property="schema:familyName" content="Rakotoarison" />
+          <p><strong property="schema:jobTitle">Computer Engineering Apprentice</strong></p>
+          <p property="schema:description">Apprentie ingénieure informatique, intéressée par le développement web, XML/XSLT, RDF, RDFa, SPARQL, Corese et la visualisation de données.</p>
+          <p><a href="cv-rdfa.html" class="button-link">Ouvrir le CV</a> <a href="docs/CV_Hasina_Rakotoarison.pdf" class="button-link secondary">CV PDF</a></p>
+        </article>
+        <article class="card">
+          <h3>Extraction de triplets</h3>
+          <pre><code>&lt;https://hamkitsi.github.io/#hasina&gt;
+  a schema:Person, foaf:Person ;
+  schema:knowsAbout "XML", "RDFa", "SPARQL" ;
+  schema:worksFor &lt;https://www.gehealthcare.com/&gt; .</code></pre>
+          <ul class="link-list">
+            <li><a href="rdfa/hasina-cv.ttl">Turtle attendu</a></li>
+            <li><a href="rdfa/cv-sparql.rq">Requêtes SPARQL CV</a></li>
+            <li><a href="rdfa/extraction.md">Méthode d’extraction RDFa</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="rapports" class="section" aria-labelledby="rapports-title">
+      <h2 id="rapports-title">Réalisations en Web sémantique</h2>
+      <p class="lead">Le portfolio montre la progression : XML et XPath au TP1, XSD/XSLT au TP2, RDF/Corese/SPARQL au TP3, XML Schema/XSLT/Unicode au TP4, puis RDFa et Linked Open Data au TP5.</p>
+      <div class="grid">
+        <article class="card"><h3>TP3 — RDF, SPARQL et Corese</h3><p>Modélisation de l’univers de La Compagnie des glaces en classes et propriétés RDF, visualisation du graphe et interrogation avec SPARQL.</p><p><a href="docs/CR_TP3_RDF_SPARQL_Corese.pdf">Voir le compte rendu</a></p></article>
+        <article class="card"><h3>TP4 — XML Schema, XSLT et Unicode</h3><p>Schéma XML du Parlement européen, document XML valide, transformation XSLT et application pédagogique sur les encodages Unicode.</p><p><a href="docs/CR_TP4_XMLSchema_XSLT_Unicode.pdf">Voir le compte rendu</a></p></article>
+        <article class="card"><h3>TP5 — RDFa et Web sémantique</h3><p>Page HTML annotée en RDFa, choix de vocabulaires, alignement DBpedia, extraction Turtle et requêtes SPARQL.</p><p><a href="docs/CR_TP5_RDFa_WebSemantique.pdf">Voir le compte rendu</a></p></article>
+      </div>
+    </section>
+
     <section id="validation" class="section" aria-labelledby="validation-title">
       <h2 id="validation-title">Validation et qualité ingénieur</h2>
       <p class="lead">Le portfolio contient une checklist : validateurs W3C, XML bien formé, DTD/XSD, XSLT, accessibilité, langue HTML, contrastes, métadonnées et fichiers sources.</p>
@@ -193,7 +233,7 @@ java -jar -Dfile.encoding=UTF8 corese.jar</code></pre>
             <li>HTML5 / XHTML polyglotte : balises fermées et attributs quotés.</li>
             <li>Accessibilité : contraste, texte alternatif, lien d'évitement, langues déclarées.</li>
             <li>Référencement : <code>hreflang</code>, <code>schema.org</code>, titres et descriptions.</li>
-            <li>Sources : XML, DTD, XSD, XSLT, SVG, RDF/Turtle, SPARQL.</li>
+            <li>Sources : XML, DTD, XSD, XSLT, SVG, RDF/Turtle, SPARQL, RDFa extractible.</li>
           </ul>
         </article>
         <article class="card">

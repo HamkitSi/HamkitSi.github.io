@@ -24,27 +24,22 @@ if (isset($_GET['lang'])) {
 if ($lang === null) { $lang = $default; }
 $_SESSION['lang'] = $lang;
 
-// Source de données multilingue : data/contenu.xml.
-// Lecture volontairement légère : fonctionne même sur un petit serveur PHP sans SimpleXML.
-$xmlText = file_get_contents(__DIR__ . '/data/contenu.xml');
+$xml = simplexml_load_file(__DIR__ . '/data/contenu.xml');
 function t($id) {
-    global $xmlText, $lang;
-    $langSafe = preg_quote($lang, '/');
-    $idSafe = preg_quote($id, '/');
-    $pattern = '/<language\s+code="' . $langSafe . '"\s*>.*?<block\s+id="' . $idSafe . '"\s*>(.*?)<\/block>.*?<\/language>/s';
-    if (preg_match($pattern, $xmlText, $m)) {
-        return htmlspecialchars_decode(trim($m[1]), ENT_QUOTES);
-    }
+    global $xml, $lang;
+    $nodes = $xml->xpath('/portfolio/language[@code="' . $lang . '"]/block[@id="' . $id . '"]');
+    if ($nodes && isset($nodes[0])) { return htmlspecialchars((string)$nodes[0], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); }
     return htmlspecialchars($id, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
+$map = ['fr'=>'index.php?lang=fr', 'en'=>'index.php?lang=en', 'ja'=>'index.php?lang=ja'];
 ?><!doctype html>
 <html lang="<?= $lang ?>" dir="ltr" itemscope="itemscope" itemtype="https://schema.org/ProfilePage">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="<?= htmlspecialchars(t('description'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>" />
+  <meta name="description" content="<?= t('description') ?>" />
   <meta name="author" content="Hasina RAKOTOARISON" />
-  <title><?= htmlspecialchars(t('title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></title>
+  <title><?= t('title') ?></title>
   <link rel="alternate" href="https://hamkitsi.github.io/index.php?lang=fr" hreflang="fr" />
   <link rel="alternate" href="https://hamkitsi.github.io/index.php?lang=en" hreflang="en" />
   <link rel="alternate" href="https://hamkitsi.github.io/index.php?lang=ja" hreflang="ja" />
@@ -60,10 +55,10 @@ function t($id) {
   <header id="accueil" class="site-header">
     <section class="hero">
       <div itemscope="itemscope" itemtype="https://schema.org/Person">
-        <p class="badge">🌿 <?= htmlspecialchars(t('hero_badge'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p>
-        <h1 itemprop="name"><?= htmlspecialchars(t('hero_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h1>
-        <p class="lead" itemprop="description"><?= htmlspecialchars(t('hero_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p>
-        <p><a class="button-link" href="#tp1"><?= htmlspecialchars(t('hero_cta'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></a></p>
+        <p class="badge">🌿 <?= t('hero_badge') ?></p>
+        <h1 itemprop="name"><?= t('hero_title') ?></h1>
+        <p class="lead" itemprop="description"><?= t('hero_text') ?></p>
+        <p><a class="button-link" href="#tp1"><?= t('hero_cta') ?></a></p>
         <meta itemprop="givenName" content="Hasina" />
         <meta itemprop="familyName" content="RAKOTOARISON" />
         <meta itemprop="affiliation" content="Université Paris 13 — INFOA2" />
@@ -76,23 +71,23 @@ function t($id) {
   </header>
   <main id="contenu" class="page-shell">
     <section class="section grid">
-      <article class="card"><h2><?= htmlspecialchars(t('identity_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p><?= htmlspecialchars(t('identity_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p></article>
-      <article class="card"><h2><?= htmlspecialchars(t('rules_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p><?= htmlspecialchars(t('rules_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p></article>
+      <article class="card"><h2><?= t('identity_title') ?></h2><p><?= t('identity_text') ?></p></article>
+      <article class="card"><h2><?= t('rules_title') ?></h2><p><?= t('rules_text') ?></p></article>
     </section>
     <section id="video" class="section video-box">
-      <h2><?= htmlspecialchars(t('video_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p><?= htmlspecialchars(t('video_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p>
+      <h2><?= t('video_title') ?></h2><p><?= t('video_text') ?></p>
       <video controls="controls" preload="metadata" poster="assets/img/video-poster.svg">
         <source src="assets/video/intro-<?= $lang ?>.mp4" type="video/mp4" />
         <track kind="subtitles" src="assets/video/captions-<?= $lang ?>.vtt" srclang="<?= $lang ?>" label="<?= $lang ?>" default="default" />
       </video>
     </section>
-    <section id="tp1" class="section"><h2><?= htmlspecialchars(t('tp1_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p class="lead"><?= htmlspecialchars(t('tp1_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p><p><a class="button-link" href="tp1/bon.xml"><?= htmlspecialchars(t('tp1_link'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></a></p></section>
-    <section id="compagnie" class="section"><h2><?= htmlspecialchars(t('compagnie_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p class="lead"><?= htmlspecialchars(t('compagnie_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p><p><a class="button-link" href="tp1/compagnie.html">Compagnie XML</a></p></section>
-    <section id="svg" class="section"><h2><?= htmlspecialchars(t('svg_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p class="lead"><?= htmlspecialchars(t('svg_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p><p><a class="button-link" href="tp1/svg/mariage-groupe-ws.svg">SVG</a></p></section>
-    <section id="xslt" class="section"><h2><?= htmlspecialchars(t('xslt_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p class="lead"><?= htmlspecialchars(t('xslt_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p><p><a class="button-link" href="xml-xslt/index.html">TP2</a></p></section>
-    <section id="rdf" class="section"><h2><?= htmlspecialchars(t('rdf_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p class="lead"><?= htmlspecialchars(t('rdf_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p><p><a class="button-link" href="rdf-corese/glaces.ttl">RDF/Turtle</a></p></section>
-    <section id="validation" class="section"><h2><?= htmlspecialchars(t('validation_title'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h2><p class="lead"><?= htmlspecialchars(t('validation_text'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p></section>
+    <section id="tp1" class="section"><h2><?= t('tp1_title') ?></h2><p class="lead"><?= t('tp1_text') ?></p><p><a class="button-link" href="tp1/bon.xml"><?= t('tp1_link') ?></a></p></section>
+    <section id="compagnie" class="section"><h2><?= t('compagnie_title') ?></h2><p class="lead"><?= t('compagnie_text') ?></p><p><a class="button-link" href="tp1/compagnie.html">Compagnie XML</a></p></section>
+    <section id="svg" class="section"><h2><?= t('svg_title') ?></h2><p class="lead"><?= t('svg_text') ?></p><p><a class="button-link" href="tp1/svg/mariage-groupe-ws.svg">SVG</a></p></section>
+    <section id="xslt" class="section"><h2><?= t('xslt_title') ?></h2><p class="lead"><?= t('xslt_text') ?></p><p><a class="button-link" href="xml-xslt/index.html">TP2</a></p></section>
+    <section id="rdf" class="section"><h2><?= t('rdf_title') ?></h2><p class="lead"><?= t('rdf_text') ?></p><p><a class="button-link" href="rdf-corese/glaces.ttl">RDF/Turtle</a></p></section>
+    <section id="validation" class="section"><h2><?= t('validation_title') ?></h2><p class="lead"><?= t('validation_text') ?></p></section>
   </main>
-  <footer class="site-footer"><p><?= htmlspecialchars(t('footer'), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></p></footer>
+  <footer class="site-footer"><p><?= t('footer') ?></p></footer>
 </body>
 </html>

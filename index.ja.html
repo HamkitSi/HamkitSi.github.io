@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja" dir="ltr" itemscope="itemscope" itemtype="https://schema.org/ProfilePage">
+<html lang="ja" dir="ltr" itemscope="itemscope" itemtype="https://schema.org/ProfilePage" prefix="schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ org: http://www.w3.org/ns/org# xsd: http://www.w3.org/2001/XMLSchema#">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,6 +57,8 @@
         <li><a href="#compagnie">氷の会社</a></li>
         <li><a href="#svg">SVG</a></li>
         <li><a href="#xslt">XML/XSLT</a></li>
+        <li><a href="#cv-rdfa">CV</a></li>
+        <li><a href="#rapports">TP3-TP5</a></li>
         <li><a href="#rdf">RDF/Corese</a></li>
         <li><a href="#validation">検証</a></li>
       </ul>
@@ -180,6 +182,44 @@ java -jar -Dfile.encoding=UTF8 corese.jar</code></pre>
             <li><a href="rdf-corese/graphe.svg">graphe.svg</a></li>
           </ul>
         </article>
+      </div>
+    </section>
+
+
+    <section id="cv-rdfa" class="section" aria-labelledby="cv-rdfa-title" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person">
+      <h2 id="cv-rdfa-title">CV</h2>
+      <p class="lead">人間が読めるCVにRDFa注釈を追加しました。氏名、連絡先、学歴、経験、スキルを <code>schema.org</code>、<code>foaf</code>、<code>Dublin Core</code>、<code>ORG</code> でタグ付けしています。</p>
+      <div class="grid">
+        <article class="card">
+          <h3 property="schema:name foaf:name">Hasina Rakotoarison</h3>
+          <meta property="schema:givenName" content="Hasina" />
+          <meta property="schema:familyName" content="Rakotoarison" />
+          <p><strong property="schema:jobTitle">Computer Engineering Apprentice</strong></p>
+          <p property="schema:description">Web開発、XML/XSLT、RDF、RDFa、SPARQL、Corese、データ可視化に関心があります。</p>
+          <p><a href="cv-rdfa.ja.html" class="button-link">CVを開く</a> <a href="docs/CV_Hasina_Rakotoarison.pdf" class="button-link secondary">PDF CV</a></p>
+        </article>
+        <article class="card">
+          <h3>トリプル抽出</h3>
+          <pre><code>&lt;https://hamkitsi.github.io/#hasina&gt;
+  a schema:Person, foaf:Person ;
+  schema:knowsAbout "XML", "RDFa", "SPARQL" ;
+  schema:worksFor &lt;https://www.gehealthcare.com/&gt; .</code></pre>
+          <ul class="link-list">
+            <li><a href="rdfa/hasina-cv.ttl">期待されるTurtle</a></li>
+            <li><a href="rdfa/cv-sparql.rq">CV用SPARQL</a></li>
+            <li><a href="rdfa/extraction.md">RDFa抽出方法</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="rapports" class="section" aria-labelledby="rapports-title">
+      <h2 id="rapports-title">セマンティックWebの成果</h2>
+      <p class="lead">このポートフォリオは、TP1のXML/XPath、TP2のXSD/XSLT、TP3のRDF/Corese/SPARQL、TP4のXML Schema/XSLT/Unicode、TP5のRDFa/LODへの進歩を示します。</p>
+      <div class="grid">
+        <article class="card"><h3>TP3 — RDF、SPARQL、Corese</h3><p>La Compagnie des glaces のRDFモデル化、グラフ可視化、SPARQL問い合わせ。</p><p><a href="docs/CR_TP3_RDF_SPARQL_Corese.pdf">レポートを見る</a></p></article>
+        <article class="card"><h3>TP4 — XML Schema、XSLT、Unicode</h3><p>欧州議会のXML Schema、有効なXMLインスタンス、XSLT変換、Unicode学習ツール。</p><p><a href="docs/CR_TP4_XMLSchema_XSLT_Unicode.pdf">レポートを見る</a></p></article>
+        <article class="card"><h3>TP5 — RDFaとWebセマンティック</h3><p>RDFa付きHTML、語彙選択、DBpedia連携、Turtle抽出、SPARQL問い合わせ。</p><p><a href="docs/CR_TP5_RDFa_WebSemantique.pdf">レポートを見る</a></p></article>
       </div>
     </section>
 

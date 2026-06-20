@@ -1,0 +1,24 @@
+PREFIX schema: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+# 1. Informations principales du CV
+SELECT ?name ?job ?email
+WHERE {
+  <https://hamkitsi.github.io/#hasina> schema:name ?name ;
+      schema:jobTitle ?job ;
+      schema:email ?email .
+}
+
+# 2. Compétences taguées en RDFa
+SELECT ?skill
+WHERE {
+  <https://hamkitsi.github.io/#hasina> schema:knowsAbout ?skill .
+}
+ORDER BY ?skill
+
+# 3. Organisations reliées au profil
+SELECT ?org ?orgName
+WHERE {
+  <https://hamkitsi.github.io/#hasina> schema:worksFor ?org .
+  ?org schema:name ?orgName .
+}

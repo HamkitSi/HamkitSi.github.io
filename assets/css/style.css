@@ -92,3 +92,13 @@ th { background: #edf4e8; color: var(--vert); }
   .site-header { padding-top: 6rem; }
   .album-card { grid-template-columns: 1fr; }
 }
+
+
+/* RDFa / CV additions */
+.small-hero { padding-bottom: 1.5rem; }
+.button-link.secondary { background: var(--papier); color: var(--vert); border: 1px solid rgba(47, 107, 63, .35); }
+.cv-card.main-cv { border-left: 6px solid var(--vert); }
+.pill-list { display: flex; flex-wrap: wrap; gap: .55rem; list-style: none; padding: 0; margin: 1rem 0 0; }
+.pill-list li { background: rgba(143, 174, 114, .18); border: 1px solid rgba(47, 107, 63, .20); border-radius: 999px; padding: .35rem .7rem; }
+.output-box { min-height: 8rem; background: #2b2118; color: #fffdf7; border-radius: 16px; padding: 1rem; overflow-x: auto; }
+code { white-space: pre-wrap; }
