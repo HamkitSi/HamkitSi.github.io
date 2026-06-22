@@ -1,152 +1,95 @@
 <!doctype html>
-<html lang="en" dir="ltr" prefix="schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ org: http://www.w3.org/ns/org# xsd: http://www.w3.org/2001/XMLSchema#">
+<html dir="ltr" lang="en" prefix="schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ org: http://www.w3.org/ns/org# xsd: http://www.w3.org/2001/XMLSchema#">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="RDFa-annotated CV: skills, education, experience and RDF triples extractable by an agent." />
-  <meta name="author" content="Hasina RAKOTOARISON" />
-  <title>CV : Hasina RAKOTOARISON</title>
-  <link rel="alternate" href="https://hamkitsi.github.io/cv-rdfa.html" hreflang="fr" />
-  <link rel="alternate" href="https://hamkitsi.github.io/cv-rdfa.en.html" hreflang="en" />
-  <link rel="alternate" href="https://hamkitsi.github.io/cv-rdfa.ja.html" hreflang="ja" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="CV of Hasina RAKOTOARISON: education, experience, skills and contact." name="description"/>
+<meta content="Hasina RAKOTOARISON" name="author"/>
+<title>CV : Hasina RAKOTOARISON</title>
+<link href="https://hamkitsi.github.io/cv-rdfa.html" hreflang="fr" rel="alternate"/>
+<link href="https://hamkitsi.github.io/cv-rdfa.en.html" hreflang="en" rel="alternate"/>
+<link href="https://hamkitsi.github.io/cv-rdfa.ja.html" hreflang="ja" rel="alternate"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
 </head>
-<body typeof="schema:ProfilePage foaf:Document" about="https://hamkitsi.github.io/cv-rdfa.html">
-  <a class="skip-link" href="#contenu">CV</a>
-  <div class="lang-switcher" aria-label="Language switcher"><a href="cv-rdfa.html" lang="fr" hreflang="fr" class="">Français</a>
-<a href="cv-rdfa.en.html" lang="en" hreflang="en" class="active">English</a>
-<a href="cv-rdfa.ja.html" lang="ja" hreflang="ja" class="">日本語</a></div>
-  <header class="site-header small-hero">
-    <section class="hero">
-      <div>
-        <p class="badge">🌿 CV · Semantic Web</p>
-        <h1 property="dc:title schema:name">CV : Hasina RAKOTOARISON</h1>
-        <p class="lead" property="dc:description">This page is readable by humans and by an RDFa agent: key CV information is tagged with Schema.org, FOAF, Dublin Core and ORG.</p>
-        <p><a class="button-link" href="index.html">Home</a> <a class="button-link secondary" href="rdfa/hasina-cv.ttl">Turtle</a></p>
-      </div>
-    </section>
-  </header>
-  <nav class="navbar" aria-label="Navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#cv">CV</a></li>
-      <li><a href="#triples">Expected RDF triples</a></li>
-      <li><a href="#agent-rdfa">RDFa agent</a></li>
-      <li><a href="docs/CV_Hasina_Rakotoarison.pdf">PDF</a></li>
-    </ul>
-  </nav>
-  <main id="contenu" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person">
-    <section id="cv" class="section grid" aria-labelledby="cv-title">
-      <article class="card cv-card main-cv">
-        <p class="badge">schema:Person · foaf:Person</p>
-        <h2 id="cv-title" property="schema:name foaf:name">Hasina Rakotoarison</h2>
-        <meta property="schema:givenName" content="Hasina" />
-        <meta property="schema:familyName" content="Rakotoarison" />
-        <p><strong property="schema:jobTitle">Computer Engineering Apprentice</strong></p>
-        <p property="schema:description">Computer engineering apprentice interested in programming, Web technologies, teamwork and international learning.</p>
-        <p><a property="schema:url foaf:homepage" href="https://hamkitsi.github.io/">https://hamkitsi.github.io/</a></p>
-        <p><a property="schema:email foaf:mbox" href="mailto:hasinasitrakar23@gmail.com">hasinasitrakar23@gmail.com</a></p>
-        <p><span property="schema:telephone">+33765270721</span> · <span property="schema:address" typeof="schema:PostalAddress"><span property="schema:addressCountry">France</span></span></p>
-      </article>
-      <article class="card" rel="schema:knowsAbout">
-        <h2>Extracted skills</h2>
-        <ul class="pill-list">
-          <li property="schema:knowsAbout">XML</li>
-          <li property="schema:knowsAbout">XSD</li>
-          <li property="schema:knowsAbout">XSLT</li>
-          <li property="schema:knowsAbout">RDF</li>
-          <li property="schema:knowsAbout">RDFa</li>
-          <li property="schema:knowsAbout">SPARQL</li>
-          <li property="schema:knowsAbout">Corese</li>
-          <li property="schema:knowsAbout">Java</li>
-          <li property="schema:knowsAbout">Python</li>
-          <li property="schema:knowsAbout">JavaScript</li>
-          <li property="schema:knowsAbout">Database Management</li>
-          <li property="schema:knowsAbout">Web Development</li>
-        </ul>
-      </article>
-    </section>
+<body about="https://hamkitsi.github.io/cv-rdfa.html" typeof="schema:ProfilePage foaf:Document">
+<a class="skip-link" href="#contenu">CV</a>
+<div aria-label="Language switcher" class="lang-switcher"><a class="" href="cv-rdfa.html" hreflang="fr" lang="fr">Français</a>
+<a class="active" href="cv-rdfa.en.html" hreflang="en" lang="en">English</a>
+<a class="" href="cv-rdfa.ja.html" hreflang="ja" lang="ja">日本語</a></div>
+<header class="site-header small-hero">
+<section class="hero">
+<div>
+<p class="badge">🌿 CV</p>
+<h1 property="dc:title schema:name">CV : Hasina RAKOTOARISON</h1>
 
-    <section class="section grid" aria-label="Education and experience">
-      <article class="card" rel="schema:alumniOf">
-        <h2>Education</h2>
-        <div typeof="schema:CollegeOrUniversity" resource="https://www.univ-artois.fr/">
-          <h3 property="schema:name">University of Artois</h3>
-          <p><time property="schema:startDate" datetime="2021">2021</time> : <time property="schema:endDate" datetime="2023">2023</time> · <span property="schema:description">1st and 2nd years of Bachelor’s degree</span></p>
-        </div>
-        <div typeof="schema:CollegeOrUniversity" resource="https://www.univ-spn.fr/">
-          <h3 property="schema:name">University of Sorbonne Paris Nord</h3>
-          <p><time property="schema:startDate" datetime="2023">2023</time> : <time property="schema:endDate" datetime="2027">2027</time> · <span property="schema:description">Software Engineer</span></p>
-        </div>
-      </article>
-      <article class="card" rel="schema:worksFor">
-        <h2>Experience</h2>
-        <div typeof="schema:Organization" resource="https://www.grdf.fr/">
-          <h3 property="schema:name">GRDF</h3>
-          <p><span property="schema:department">Information Systems Department</span> · <span property="schema:roleName">IT Product Manager Apprentice</span> · <time datetime="2023">2023</time>:<time datetime="2024">2024</time></p>
-          <p property="schema:description">Tomcat, Apache, Ansible, Centreon, ServiceNow, change and incident backlog, project committees.</p>
-        </div>
-        <div typeof="schema:Organization" resource="https://www.gehealthcare.com/">
-          <h3 property="schema:name">GE Healthcare</h3>
-          <p><span property="schema:department">Interventional Software Apps</span> · <span property="schema:roleName">Software Engineer Apprentice</span> · <time datetime="2024">2024</time>:<time datetime="2027">2027</time></p>
-          <p property="schema:description">Dashboard enhancement, real-time metrics, web prototype for volumetric medical image reconstruction and visualization.</p>
-        </div>
-      </article>
-    </section>
+<p><a class="button-link" href="index.html">Home</a> <a class="button-link secondary" href="docs/CV_Hasina_Rakotoarison.pdf">PDF CV</a></p>
+</div>
+</section>
+</header>
+<nav aria-label="Navigation" class="navbar">
+<ul><li><a href="index.html">Home</a></li><li><a href="#cv">CV</a></li><li><a href="docs/CV_Hasina_Rakotoarison.pdf">PDF</a></li></ul>
+</nav>
+<main about="https://hamkitsi.github.io/#hasina" id="contenu" typeof="schema:Person foaf:Person">
+<section aria-labelledby="cv-title" class="section grid" id="cv">
+<article class="card cv-card main-cv">
 
-    <section id="triples" class="section" aria-labelledby="triples-title">
-      <h2 id="triples-title">What an RDFa agent can extract</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Expected RDF triples</h3>
-          <p>Un agent RDFa peut lire les attributs <code>typeof</code>, <code>property</code>, <code>rel</code>, <code>resource</code> et <code>about</code>, puis produire des triplets RDF.</p>
-          <pre><code>&lt;https://hamkitsi.github.io/#hasina&gt; a schema:Person, foaf:Person ;
-  schema:name "Hasina Rakotoarison" ;
-  schema:jobTitle "Computer Engineering Apprentice" ;
-  schema:email &lt;mailto:hasinasitrakar23@gmail.com&gt; ;
-  schema:knowsAbout "XML", "RDFa", "SPARQL", "Corese" .</code></pre>
-        </article>
-        <article class="card">
-          <h3>Documentation and checks</h3>
-          <ul class="link-list">
-            <li><a href="rdfa/hasina-cv.ttl">hasina-cv.ttl</a></li>
-            <li><a href="rdfa/cv-sparql.rq">cv-sparql.rq</a></li>
-            <li><a href="rdfa/extraction.md">extraction.md</a></li>
-            <li><a href="docs/CV_Hasina_Rakotoarison.pdf">CV PDF original</a></li>
-          </ul>
-        </article>
-      </div>
-    </section>
+<h2 id="cv-title" property="schema:name foaf:name">Hasina Rakotoarison</h2>
+<meta content="Hasina" property="schema:givenName"/>
+<meta content="Rakotoarison" property="schema:familyName"/>
+<p><strong property="schema:jobTitle">Computer Engineering Apprentice</strong></p>
+<p property="schema:description">Computer engineering apprentice interested in programming, Web technologies, teamwork and international learning.</p>
+<p><a href="https://hamkitsi.github.io/" property="schema:url foaf:homepage">https://hamkitsi.github.io/</a></p>
+<p><a href="mailto:hasinasitrakar23@gmail.com" property="schema:email foaf:mbox">hasinasitrakar23@gmail.com</a></p>
+<p><span property="schema:telephone">+33765270721</span> · <span property="schema:address" typeof="schema:PostalAddress"><span property="schema:addressCountry">France</span></span></p>
+</article>
+<article class="card" rel="schema:knowsAbout">
+<h2>Skills</h2>
+<ul class="pill-list">
+<li property="schema:knowsAbout">XML</li>
+<li property="schema:knowsAbout">XSD</li>
+<li property="schema:knowsAbout">XSLT</li>
+<li property="schema:knowsAbout">RDF</li>
+<li property="schema:knowsAbout">RDFa</li>
+<li property="schema:knowsAbout">SPARQL</li>
+<li property="schema:knowsAbout">Corese</li>
+<li property="schema:knowsAbout">Java</li>
+<li property="schema:knowsAbout">Python</li>
+<li property="schema:knowsAbout">JavaScript</li>
+<li property="schema:knowsAbout">Database Management</li>
+<li property="schema:knowsAbout">Web Development</li>
+</ul>
+</article>
+</section>
+<section aria-label="Education and experience" class="section grid">
+<article class="card" rel="schema:alumniOf">
+<h2>Education</h2>
+<div resource="https://www.univ-artois.fr/" typeof="schema:CollegeOrUniversity">
+<h3 property="schema:name">University of Artois</h3>
+<p><time datetime="2021" property="schema:startDate">2021</time> : <time datetime="2023" property="schema:endDate">2023</time> · <span property="schema:description">1st and 2nd years of Bachelor’s degree</span></p>
+</div>
+<div resource="https://www.univ-spn.fr/" typeof="schema:CollegeOrUniversity">
+<h3 property="schema:name">University of Sorbonne Paris Nord</h3>
+<p><time datetime="2023" property="schema:startDate">2023</time> : <time datetime="2027" property="schema:endDate">2027</time> · <span property="schema:description">Software Engineer</span></p>
+</div>
+</article>
+<article class="card" rel="schema:worksFor">
+<h2>Experience</h2>
+<div resource="https://www.grdf.fr/" typeof="schema:Organization">
+<h3 property="schema:name">GRDF</h3>
+<p><span property="schema:department">Information Systems Department</span> · <span property="schema:roleName">IT Product Manager Apprentice</span> · <time datetime="2023">2023</time>:<time datetime="2024">2024</time></p>
+<p property="schema:description">Tomcat, Apache, Ansible, Centreon, ServiceNow, change and incident backlog, project committees.</p>
+</div>
+<div resource="https://www.gehealthcare.com/" typeof="schema:Organization">
+<h3 property="schema:name">GE Healthcare</h3>
+<p><span property="schema:department">Interventional Software Apps</span> · <span property="schema:roleName">Software Engineer Apprentice</span> · <time datetime="2024">2024</time>:<time datetime="2027">2027</time></p>
+<p property="schema:description">Dashboard enhancement, real-time metrics, web prototype for volumetric medical image reconstruction and visualization.</p>
+</div>
+</article>
+</section>
 
-    <section id="agent-rdfa" class="section" about="https://hamkitsi.github.io/#agent-rdfa" typeof="schema:SoftwareApplication" aria-labelledby="agent-title">
-      <h2 id="agent-title" property="schema:name">Educational mini-agent</h2>
-      <p property="schema:description">Cette zone simule ce que ferait un agent RDFa : elle affiche une sélection de triplets que l’on peut comparer au fichier Turtle fourni.</p>
-      <p><button class="button-link" type="button" id="show-rdfa-triples">Show key triples</button></p>
-      <pre id="rdfa-agent-output" class="output-box"><code></code></pre>
-      <script>
-      document.getElementById('show-rdfa-triples').addEventListener('click', function () {
-        document.querySelector('#rdfa-agent-output code').textContent = `@prefix schema: <https://schema.org/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-<https://hamkitsi.github.io/#hasina> a schema:Person, foaf:Person ;
-  schema:name "Hasina Rakotoarison" ;
-  schema:jobTitle "Computer Engineering Apprentice" ;
-  schema:worksFor <https://www.gehealthcare.com/> ;
-  schema:alumniOf <https://www.univ-spn.fr/> ;
-  schema:knowsAbout "XML", "XSLT", "RDFa", "SPARQL", "Corese" .`;
-      });
-      </script>
-    </section>
 
-    <section class="section" aria-labelledby="reports-title">
-      <h2 id="reports-title">Personal report</h2>
-      <p>Le portfolio met en valeur les TPs de Web sémantique et montre la continuité entre XML, XSLT, RDF, Corese, SPARQL et RDFa.</p>
-      <ul class="link-list">
-        <li><a href="docs/CR_TP3_RDF_SPARQL_Corese.pdf">TP3 : RDF, SPARQL et Corese</a></li>
-        <li><a href="docs/CR_TP4_XMLSchema_XSLT_Unicode.pdf">TP4 : XML Schema, XSLT et Unicode</a></li>
-        <li><a href="docs/CR_TP5_RDFa_WebSemantique.pdf">TP5 : RDFa et Web sémantique</a></li>
-      </ul>
-    </section>
-  </main>
-  <footer class="site-footer"><p>Portfolio réalisé par Hasina RAKOTOARISON : INFOA2 : Université Sorbonne Paris Nord.</p></footer>
+
+</main>
+<footer class="site-footer"><p>Portfolio réalisé par Hasina RAKOTOARISON : INFOA2 : Université Sorbonne Paris Nord.</p></footer>
 </body>
 </html>
