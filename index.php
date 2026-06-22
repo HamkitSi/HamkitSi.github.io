@@ -76,10 +76,9 @@ $map = ['fr'=>'index.php?lang=fr', 'en'=>'index.php?lang=en', 'ja'=>'index.php?l
     </section>
     <section id="video" class="section video-box">
       <h2><?= t('video_title') ?></h2><p><?= t('video_text') ?></p>
-      <video controls="controls" preload="metadata" poster="assets/img/video-poster.svg">
-        <source src="assets/video/intro-<?= $lang ?>.mp4" type="video/mp4" />
-        <track kind="subtitles" src="assets/video/captions-<?= $lang ?>.vtt" srclang="<?= $lang ?>" label="<?= $lang ?>" default="default" />
-      </video>
+      <div class="youtube-frame">
+        <iframe src="https://www.youtube.com/embed/r795n3AffgA" title="<?= htmlspecialchars(t('video_title'), ENT_QUOTES, 'UTF-8') ?>" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>
+      </div>
     </section>
     <section id="tp1" class="section"><h2><?= t('tp1_title') ?></h2><p class="lead"><?= t('tp1_text') ?></p><p><a class="button-link" href="tp1/bon.xml"><?= t('tp1_link') ?></a></p></section>
     <section id="compagnie" class="section"><h2><?= t('compagnie_title') ?></h2><p class="lead"><?= t('compagnie_text') ?></p><p><a class="button-link" href="tp1/compagnie.html">Compagnie XML</a></p></section>

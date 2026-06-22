@@ -17,7 +17,7 @@
     <block id="identity_title">Qui suis-je ?</block>
     <block id="identity_text">Je suis Hasina RAKOTOARISON, étudiant en INFOA2. Ce portfolio présente mes rendus et mes explications, avec une approche simple, ludique et progressive.</block>
     <block id="rules_title">Ce que le portfolio démontre</block>
-    <block id="rules_text">Le site est disponible en français, anglais et japonais, avec des liens alternatifs hreflang, des métadonnées schema.org, une source de contenu XML, une vidéo par langue et des fichiers TP testables.</block>
+    <block id="rules_text">Le site est disponible en français, anglais et japonais, avec des liens alternatifs hreflang, des métadonnées schema.org, une source de contenu XML, une vidéo YouTube intégrée et des fichiers TP testables.</block>
     <block id="tp1_title">TP1 — Les bases du XML</block>
     <block id="tp1_text">XML sert à ranger de l’information. Un fichier bien formé ressemble à un arbre : une seule racine, des balises fermées, et des branches correctement imbriquées. Un fichier valide respecte en plus une grammaire : ici une DTD.</block>
     <block id="tp1_link">Voir les fichiers corrigés</block>
@@ -35,7 +35,7 @@
     <block id="validation_title">Validation et qualité ingénieur</block>
     <block id="validation_text">Le portfolio contient une checklist : validateurs W3C, XML bien formé, DTD/XSD, XSLT, accessibilité, langue HTML, contrastes, métadonnées et fichiers sources.</block>
     <block id="video_title">Vidéo de présentation</block>
-    <block id="video_text">La version de la vidéo change avec la langue de la page.</block>
+    <block id="video_text">Cette vidéo est intégrée depuis YouTube avec un iframe HTML5.</block>
     <block id="footer">Portfolio réalisé par Hasina RAKOTOARISON — INFOA2 — Université Paris 13.</block>
   </language>
   <language code="en">
@@ -55,7 +55,7 @@
     <block id="identity_title">Who am I?</block>
     <block id="identity_text">I am Hasina RAKOTOARISON, an INFOA2 student. This portfolio presents my work and explanations in a simple, playful and progressive way.</block>
     <block id="rules_title">What the portfolio demonstrates</block>
-    <block id="rules_text">The site is available in French, English and Japanese, with alternate hreflang links, schema.org metadata, an XML content source, one video per language and testable lab files.</block>
+    <block id="rules_text">The site is available in French, English and Japanese, with alternate hreflang links, schema.org metadata, an XML content source, an embedded YouTube video and testable lab files.</block>
     <block id="tp1_title">Lab 1 — XML basics</block>
     <block id="tp1_text">XML is used to organize information. A well-formed file looks like a tree: one root, closed tags and correctly nested branches. A valid file also follows a grammar: here, a DTD.</block>
     <block id="tp1_link">Open corrected files</block>
@@ -73,7 +73,7 @@
     <block id="validation_title">Validation and engineering quality</block>
     <block id="validation_text">The portfolio includes a checklist: W3C validators, well-formed XML, DTD/XSD, XSLT, accessibility, HTML language, contrasts, metadata and source files.</block>
     <block id="video_title">Presentation video</block>
-    <block id="video_text">The video version changes with the page language.</block>
+    <block id="video_text">This video is embedded from YouTube with an HTML5 iframe.</block>
     <block id="footer">Portfolio created by Hasina RAKOTOARISON — INFOA2 — Paris 13 University.</block>
   </language>
   <language code="ja">
@@ -93,7 +93,7 @@
     <block id="identity_title">自己紹介</block>
     <block id="identity_text">私は Hasina RAKOTOARISON、INFOA2 の学生です。このポートフォリオでは、課題と説明をシンプルで楽しく段階的にまとめています。</block>
     <block id="rules_title">このポートフォリオで示すこと</block>
-    <block id="rules_text">サイトはフランス語、英語、日本語に対応し、hreflang、schema.org メタデータ、XMLのコンテンツソース、言語別ビデオ、テスト可能な課題ファイルを含みます。</block>
+    <block id="rules_text">サイトはフランス語、英語、日本語に対応し、hreflang、schema.org メタデータ、XMLのコンテンツソース、YouTube動画の埋め込み、テスト可能な課題ファイルを含みます。</block>
     <block id="tp1_title">TP1 — XMLの基礎</block>
     <block id="tp1_text">XMLは情報を整理するための形式です。整形式のファイルは木のように、1つの根、閉じられたタグ、正しく入れ子になった枝を持ちます。妥当なファイルはDTDなどの文法にも従います。</block>
     <block id="tp1_link">修正版ファイルを見る</block>
@@ -111,7 +111,7 @@
     <block id="validation_title">検証とエンジニア品質</block>
     <block id="validation_text">W3C検証、整形式XML、DTD/XSD、XSLT、アクセシビリティ、HTMLのlang属性、コントラスト、メタデータ、ソースファイルをチェックします。</block>
     <block id="video_title">紹介ビデオ</block>
-    <block id="video_text">ページの言語に合わせてビデオのバージョンが変わります。</block>
+    <block id="video_text">この紹介ビデオは YouTube の iframe として埋め込んでいます。</block>
     <block id="footer">Hasina RAKOTOARISON — INFOA2 — パリ第13大学。</block>
   </language>
 </portfolio>

@@ -71,17 +71,16 @@
       </article>
       <article class="card">
         <h2>What the portfolio demonstrates</h2>
-        <p>The site is available in French, English and Japanese, with alternate hreflang links, schema.org metadata, an XML content source, one video per language and testable lab files.</p>
+        <p>The site is available in French, English and Japanese, with alternate hreflang links, schema.org metadata, an XML content source, an embedded YouTube video and testable lab files.</p>
       </article>
     </section>
 
     <section id="video" class="section video-box" aria-labelledby="video-title">
       <h2 id="video-title">Presentation video</h2>
-      <p>The video version changes with the page language.</p>
-      <video controls="controls" preload="metadata" poster="assets/img/video-poster.svg">
-        <source src="assets/video/intro-en.mp4" type="video/mp4" />
-        <track kind="subtitles" src="assets/video/captions-en.vtt" srclang="en" label="English" default="default" />
-      </video>
+      <p>This video is embedded from YouTube with an HTML5 iframe.</p>
+      <div class="youtube-frame">
+        <iframe src="https://www.youtube.com/embed/r795n3AffgA" title="Portfolio presentation video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe>
+      </div>
     </section>
 
     <section id="tp1" class="section" aria-labelledby="tp1-title">
