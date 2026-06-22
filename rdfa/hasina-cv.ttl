@@ -6,7 +6,7 @@
 
 <https://hamkitsi.github.io/cv-rdfa.html>
     a schema:ProfilePage, foaf:Document ;
-    dcterms:title "CV RDFa — Hasina RAKOTOARISON"@fr ;
+    dcterms:title "CV RDFa : Hasina RAKOTOARISON"@fr ;
     dcterms:creator <https://hamkitsi.github.io/#hasina> ;
     dcterms:subject "CV", "RDFa", "Web sémantique"@fr .
 

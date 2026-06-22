@@ -61,7 +61,7 @@ $map = ['fr'=>'index.php?lang=fr', 'en'=>'index.php?lang=en', 'ja'=>'index.php?l
         <p><a class="button-link" href="#tp1"><?= t('hero_cta') ?></a></p>
         <meta itemprop="givenName" content="Hasina" />
         <meta itemprop="familyName" content="RAKOTOARISON" />
-        <meta itemprop="affiliation" content="Université Paris 13 — INFOA2" />
+        <meta itemprop="affiliation" content="Université Paris 13 : INFOA2" />
         <link itemprop="url" href="https://hamkitsi.github.io/" />
       </div>
       <div class="hero-card">
@@ -85,7 +85,6 @@ $map = ['fr'=>'index.php?lang=fr', 'en'=>'index.php?lang=en', 'ja'=>'index.php?l
     <section id="svg" class="section"><h2><?= t('svg_title') ?></h2><p class="lead"><?= t('svg_text') ?></p><p><a class="button-link" href="tp1/svg/mariage-groupe-ws.svg">SVG</a></p></section>
     <section id="xslt" class="section"><h2><?= t('xslt_title') ?></h2><p class="lead"><?= t('xslt_text') ?></p><p><a class="button-link" href="xml-xslt/index.html">TP2</a></p></section>
     <section id="rdf" class="section"><h2><?= t('rdf_title') ?></h2><p class="lead"><?= t('rdf_text') ?></p><p><a class="button-link" href="rdf-corese/glaces.ttl">RDF/Turtle</a></p></section>
-    <section id="validation" class="section"><h2><?= t('validation_title') ?></h2><p class="lead"><?= t('validation_text') ?></p></section>
   </main>
   <footer class="site-footer"><p><?= t('footer') ?></p></footer>
 </body>

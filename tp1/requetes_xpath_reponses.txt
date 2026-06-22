@@ -1,4 +1,4 @@
-Réponses XPath — La Compagnie des glaces
+Réponses XPath : La Compagnie des glaces
 =========================================
 
 Fichier de départ : tp1/compagnie.xml

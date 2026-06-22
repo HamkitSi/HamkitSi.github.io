@@ -12,7 +12,7 @@
       <body>
         <main>
           <header class="entete">
-            <p class="sur-titre">Exercice 5 — visualisation XSLT d'un fichier TMX</p>
+            <p class="sur-titre">Exercice 5 : visualisation XSLT d'un fichier TMX</p>
             <h1>
               <xsl:value-of select="/tmx/body/tu[1]/tuv[@lang='FR-FR']/seg"/>
             </h1>
@@ -69,7 +69,7 @@
                         <xsl:when test="tuv[@lang='EN-GB']/seg">
                           <xsl:value-of select="tuv[@lang='EN-GB']/seg"/>
                         </xsl:when>
-                        <xsl:otherwise><span class="manquant">—</span></xsl:otherwise>
+                        <xsl:otherwise><span class="manquant">:</span></xsl:otherwise>
                       </xsl:choose>
                     </td>
                     <td lang="fr">
@@ -77,7 +77,7 @@
                         <xsl:when test="tuv[@lang='FR-FR']/seg">
                           <xsl:value-of select="tuv[@lang='FR-FR']/seg"/>
                         </xsl:when>
-                        <xsl:otherwise><span class="manquant">—</span></xsl:otherwise>
+                        <xsl:otherwise><span class="manquant">:</span></xsl:otherwise>
                       </xsl:choose>
                     </td>
                     <td lang="de">
@@ -85,7 +85,7 @@
                         <xsl:when test="tuv[@lang='DE-DE']/seg">
                           <xsl:value-of select="tuv[@lang='DE-DE']/seg"/>
                         </xsl:when>
-                        <xsl:otherwise><span class="manquant">—</span></xsl:otherwise>
+                        <xsl:otherwise><span class="manquant">:</span></xsl:otherwise>
                       </xsl:choose>
                     </td>
                   </tr>

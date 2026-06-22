@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <portfolio>
   <language code="fr">
-    <block id="title">Portfolio Web sémantique — Hasina RAKOTOARISON</block>
+    <block id="title">Portfolio Web sémantique : Hasina RAKOTOARISON</block>
     <block id="description">Portfolio pédagogique de Hasina RAKOTOARISON, INFOA2, autour de XML, XSLT, SVG, RDF, SPARQL et Corese.</block>
     <block id="nav_home">Accueil</block>
     <block id="nav_tp1">TP1 XML</block>
@@ -9,7 +9,6 @@
     <block id="nav_svg">SVG</block>
     <block id="nav_xslt">XML/XSLT</block>
     <block id="nav_rdf">RDF/Corese</block>
-    <block id="nav_validation">Validation</block>
     <block id="hero_badge">INFOA2 · Web sémantique</block>
     <block id="hero_title">Bienvenue dans ma forêt sémantique</block>
     <block id="hero_text">Ici, chaque arbre est un document XML, chaque branche est une balise, et chaque feuille contient une donnée à comprendre.</block>
@@ -18,28 +17,26 @@
     <block id="identity_text">Je suis Hasina RAKOTOARISON, étudiant en INFOA2. Ce portfolio présente mes rendus et mes explications, avec une approche simple, ludique et progressive.</block>
     <block id="rules_title">Ce que le portfolio démontre</block>
     <block id="rules_text">Le site est disponible en français, anglais et japonais, avec des liens alternatifs hreflang, des métadonnées schema.org, une source de contenu XML, une vidéo YouTube intégrée et des fichiers TP testables.</block>
-    <block id="tp1_title">TP1 — Les bases du XML</block>
+    <block id="tp1_title">TP1 : Les bases du XML</block>
     <block id="tp1_text">XML sert à ranger de l’information. Un fichier bien formé ressemble à un arbre : une seule racine, des balises fermées, et des branches correctement imbriquées. Un fichier valide respecte en plus une grammaire : ici une DTD.</block>
     <block id="tp1_link">Voir les fichiers corrigés</block>
     <block id="dtd_title">DTD unique de la forêt</block>
     <block id="dtd_text">La DTD ci-dessous accepte une forêt, des arbres, des troncs, des branches et des feuilles. Elle permet de tester les quatre fichiers corrigés.</block>
-    <block id="compagnie_title">La Compagnie des glaces — XML + XPath</block>
+    <block id="compagnie_title">La Compagnie des glaces : XML + XPath</block>
     <block id="compagnie_text">J’ai modélisé les intégrales sous forme XML : chaque album contient un numéro, un nom, une vignette, un résumé, un lien et plusieurs titres.</block>
     <block id="stats_title">Résultats obtenus</block>
-    <block id="svg_title">SVG — faire-part et trucage humoristique</block>
+    <block id="svg_title">SVG : faire-part et trucage humoristique</block>
     <block id="svg_text">Le faire-part anime le mariage symbolique entre XML, RDF et SPARQL pendant au moins cinq secondes. Le trucage associe deux images SVG pour créer une fausse une de magazine humoristique.</block>
     <block id="xslt_title">XML, XSD et XSLT</block>
     <block id="xslt_text">XML décrit les données, XSD contrôle leur forme, XSLT transforme l’arbre XML en HTML, et CSS rend le résultat agréable à lire.</block>
     <block id="rdf_title">RDF, Corese et SPARQL</block>
     <block id="rdf_text">J’ai représenté La Compagnie des glaces sous forme de graphe RDF : une série, un auteur, des albums, des titres et des thèmes. Les requêtes SPARQL servent à interroger ces relations.</block>
-    <block id="validation_title">Validation et qualité ingénieur</block>
-    <block id="validation_text">Le portfolio contient une checklist : validateurs W3C, XML bien formé, DTD/XSD, XSLT, accessibilité, langue HTML, contrastes, métadonnées et fichiers sources.</block>
     <block id="video_title">Vidéo de présentation</block>
     <block id="video_text">Cette vidéo est intégrée depuis YouTube avec un iframe HTML5.</block>
-    <block id="footer">Portfolio réalisé par Hasina RAKOTOARISON — INFOA2 — Université Paris 13.</block>
+    <block id="footer">Portfolio réalisé par Hasina RAKOTOARISON : INFOA2 : Université Paris 13.</block>
   </language>
   <language code="en">
-    <block id="title">Semantic Web Portfolio — Hasina RAKOTOARISON</block>
+    <block id="title">Semantic Web Portfolio : Hasina RAKOTOARISON</block>
     <block id="description">Educational portfolio by Hasina RAKOTOARISON, INFOA2, about XML, XSLT, SVG, RDF, SPARQL and Corese.</block>
     <block id="nav_home">Home</block>
     <block id="nav_tp1">XML Lab</block>
@@ -47,7 +44,6 @@
     <block id="nav_svg">SVG</block>
     <block id="nav_xslt">XML/XSLT</block>
     <block id="nav_rdf">RDF/Corese</block>
-    <block id="nav_validation">Validation</block>
     <block id="hero_badge">INFOA2 · Semantic Web</block>
     <block id="hero_title">Welcome to my semantic forest</block>
     <block id="hero_text">Here, every tree is an XML document, every branch is a tag, and every leaf contains data to understand.</block>
@@ -56,28 +52,26 @@
     <block id="identity_text">I am Hasina RAKOTOARISON, an INFOA2 student. This portfolio presents my work and explanations in a simple, playful and progressive way.</block>
     <block id="rules_title">What the portfolio demonstrates</block>
     <block id="rules_text">The site is available in French, English and Japanese, with alternate hreflang links, schema.org metadata, an XML content source, an embedded YouTube video and testable lab files.</block>
-    <block id="tp1_title">Lab 1 — XML basics</block>
+    <block id="tp1_title">Lab 1 : XML basics</block>
     <block id="tp1_text">XML is used to organize information. A well-formed file looks like a tree: one root, closed tags and correctly nested branches. A valid file also follows a grammar: here, a DTD.</block>
     <block id="tp1_link">Open corrected files</block>
     <block id="dtd_title">One DTD for the forest</block>
     <block id="dtd_text">The DTD below accepts a forest, trees, trunks, branches and leaves. It validates the four corrected files.</block>
-    <block id="compagnie_title">The Ice Company — XML + XPath</block>
+    <block id="compagnie_title">The Ice Company : XML + XPath</block>
     <block id="compagnie_text">I modelled the volumes as XML: each album has a number, a name, a cover placeholder, a summary, a link and several titles.</block>
     <block id="stats_title">Results</block>
-    <block id="svg_title">SVG — invitation and humorous edit</block>
+    <block id="svg_title">SVG : invitation and humorous edit</block>
     <block id="svg_text">The invitation animates the symbolic wedding between XML, RDF and SPARQL for at least five seconds. The edit combines two SVG images into a fake humorous magazine cover.</block>
     <block id="xslt_title">XML, XSD and XSLT</block>
     <block id="xslt_text">XML describes data, XSD checks its shape, XSLT transforms the XML tree into HTML, and CSS makes the result easier to read.</block>
     <block id="rdf_title">RDF, Corese and SPARQL</block>
     <block id="rdf_text">I represented The Ice Company as an RDF graph: a series, an author, albums, titles and themes. SPARQL queries are used to explore those relations.</block>
-    <block id="validation_title">Validation and engineering quality</block>
-    <block id="validation_text">The portfolio includes a checklist: W3C validators, well-formed XML, DTD/XSD, XSLT, accessibility, HTML language, contrasts, metadata and source files.</block>
     <block id="video_title">Presentation video</block>
     <block id="video_text">This video is embedded from YouTube with an HTML5 iframe.</block>
-    <block id="footer">Portfolio created by Hasina RAKOTOARISON — INFOA2 — Paris 13 University.</block>
+    <block id="footer">Portfolio created by Hasina RAKOTOARISON : INFOA2 : Paris 13 University.</block>
   </language>
   <language code="ja">
-    <block id="title">セマンティックWebポートフォリオ — Hasina RAKOTOARISON</block>
+    <block id="title">セマンティックWebポートフォリオ : Hasina RAKOTOARISON</block>
     <block id="description">Hasina RAKOTOARISON（INFOA2）による、XML、XSLT、SVG、RDF、SPARQL、Corese の学習ポートフォリオです。</block>
     <block id="nav_home">ホーム</block>
     <block id="nav_tp1">XML演習</block>
@@ -85,7 +79,6 @@
     <block id="nav_svg">SVG</block>
     <block id="nav_xslt">XML/XSLT</block>
     <block id="nav_rdf">RDF/Corese</block>
-    <block id="nav_validation">検証</block>
     <block id="hero_badge">INFOA2・セマンティックWeb</block>
     <block id="hero_title">私のセマンティックな森へようこそ</block>
     <block id="hero_text">ここでは、木はXML文書、枝はタグ、葉は理解すべきデータを表しています。</block>
@@ -94,24 +87,22 @@
     <block id="identity_text">私は Hasina RAKOTOARISON、INFOA2 の学生です。このポートフォリオでは、課題と説明をシンプルで楽しく段階的にまとめています。</block>
     <block id="rules_title">このポートフォリオで示すこと</block>
     <block id="rules_text">サイトはフランス語、英語、日本語に対応し、hreflang、schema.org メタデータ、XMLのコンテンツソース、YouTube動画の埋め込み、テスト可能な課題ファイルを含みます。</block>
-    <block id="tp1_title">TP1 — XMLの基礎</block>
+    <block id="tp1_title">TP1 : XMLの基礎</block>
     <block id="tp1_text">XMLは情報を整理するための形式です。整形式のファイルは木のように、1つの根、閉じられたタグ、正しく入れ子になった枝を持ちます。妥当なファイルはDTDなどの文法にも従います。</block>
     <block id="tp1_link">修正版ファイルを見る</block>
     <block id="dtd_title">森のための1つのDTD</block>
     <block id="dtd_text">以下のDTDは、森、木、幹、枝、葉を表します。4つの修正版XMLを検証できます。</block>
-    <block id="compagnie_title">氷の会社 — XML + XPath</block>
+    <block id="compagnie_title">氷の会社 : XML + XPath</block>
     <block id="compagnie_text">各アルバムをXMLでモデル化しました。番号、名前、表紙、要約、リンク、複数のタイトルを含みます。</block>
     <block id="stats_title">得られた結果</block>
-    <block id="svg_title">SVG — 招待状とユーモア画像</block>
+    <block id="svg_title">SVG : 招待状とユーモア画像</block>
     <block id="svg_text">招待状では、XML、RDF、SPARQLの象徴的な結婚を5秒以上アニメーションします。ユーモア画像は2つのSVGを組み合わせた架空の雑誌表紙です。</block>
     <block id="xslt_title">XML、XSD、XSLT</block>
     <block id="xslt_text">XMLはデータを記述し、XSDは構造を確認し、XSLTはXMLの木をHTMLに変換し、CSSは見やすく整えます。</block>
     <block id="rdf_title">RDF、Corese、SPARQL</block>
     <block id="rdf_text">「氷の会社」をRDFグラフとして表現しました。シリーズ、作者、アルバム、タイトル、テーマの関係をSPARQLで問い合わせます。</block>
-    <block id="validation_title">検証とエンジニア品質</block>
-    <block id="validation_text">W3C検証、整形式XML、DTD/XSD、XSLT、アクセシビリティ、HTMLのlang属性、コントラスト、メタデータ、ソースファイルをチェックします。</block>
     <block id="video_title">紹介ビデオ</block>
     <block id="video_text">この紹介ビデオは YouTube の iframe として埋め込んでいます。</block>
-    <block id="footer">Hasina RAKOTOARISON — INFOA2 — パリ第13大学。</block>
+    <block id="footer">Hasina RAKOTOARISON : INFOA2 : パリ第13大学。</block>
   </language>
 </portfolio>

@@ -5,7 +5,7 @@
     <html lang="fr">
       <head>
         <meta charset="UTF-8"/>
-        <title>La Compagnie des glaces — XML + XSLT</title>
+        <title>La Compagnie des glaces : XML + XSLT</title>
         <link rel="stylesheet" href="../assets/css/style.css"/>
       </head>
       <body class="subpage">
