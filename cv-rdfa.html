@@ -1,95 +1,43 @@
 <!doctype html>
-<html dir="ltr" lang="fr" prefix="schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ org: http://www.w3.org/ns/org# xsd: http://www.w3.org/2001/XMLSchema#">
+<html dir="ltr" data-page="cv" lang="fr" prefix="schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/ dc: http://purl.org/dc/elements/1.1/ dcterms: http://purl.org/dc/terms/ org: http://www.w3.org/ns/org#">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="CV de Hasina RAKOTOARISON : formation, expériences, compétences et contact." name="description"/>
-<meta content="Hasina RAKOTOARISON" name="author"/>
-<title>CV : Hasina RAKOTOARISON</title>
-<link href="https://hamkitsi.github.io/cv-rdfa.html" hreflang="fr" rel="alternate"/>
-<link href="https://hamkitsi.github.io/cv-rdfa.en.html" hreflang="en" rel="alternate"/>
-<link href="https://hamkitsi.github.io/cv-rdfa.ja.html" hreflang="ja" rel="alternate"/>
+<meta data-i18n-attr="content:cv.meta.description" content="CV de Hasina RAKOTOARISON" name="description"/>
+<title data-i18n="cv.page.title">CV : Hasina RAKOTOARISON</title>
+<link href="https://hamkitsi.github.io/cv-rdfa.html?lang=fr" hreflang="fr" rel="alternate"/>
+<link href="https://hamkitsi.github.io/cv-rdfa.html?lang=en" hreflang="en" rel="alternate"/>
+<link href="https://hamkitsi.github.io/cv-rdfa.html?lang=ja" hreflang="ja" rel="alternate"/>
 <link href="assets/css/style.css" rel="stylesheet"/>
+<script defer="defer" src="assets/js/i18n.js"></script>
 </head>
-<body about="https://hamkitsi.github.io/cv-rdfa.html" typeof="schema:ProfilePage foaf:Document">
-<a class="skip-link" href="#contenu">CV</a>
-<div aria-label="Language switcher" class="lang-switcher"><a class="active" href="cv-rdfa.html" hreflang="fr" lang="fr">Français</a>
-<a class="" href="cv-rdfa.en.html" hreflang="en" lang="en">English</a>
-<a class="" href="cv-rdfa.ja.html" hreflang="ja" lang="ja">日本語</a></div>
-<header class="site-header small-hero">
-<section class="hero">
+<body typeof="schema:ProfilePage foaf:Document" about="https://hamkitsi.github.io/cv-rdfa.html">
+<a class="skip-link" href="#contenu" data-i18n="skip.content">Aller au contenu</a>
+<div aria-label="Choix de langue" class="lang-switcher">
+  <a class="active" data-set-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
+  <a data-set-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
+  <a data-set-lang="ja" href="?lang=ja" hreflang="ja" lang="ja">日本語</a>
+</div>
+<header class="site-header" id="haut">
+<section class="hero" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person">
 <div>
-<p class="badge">🌿 CV</p>
-<h1 property="dc:title schema:name">CV de Hasina RAKOTOARISON</h1>
-
-<p><a class="button-link" href="index.html">Accueil</a> <a class="button-link secondary" href="docs/CV_Hasina_Rakotoarison.pdf">CV PDF</a></p>
+<p class="badge" data-i18n="cv.badge">🌿 CV</p>
+<h1 property="schema:name foaf:name" data-i18n="cv.name">Hasina RAKOTOARISON</h1>
+<p class="lead" property="schema:jobTitle" data-i18n="cv.job">Apprentie ingénieure informatique</p>
+<p><a class="button-link" href="index.html#cv" data-i18n="cv.back">Accueil</a> <a class="button-link secondary" href="docs/CV_Hasina_Rakotoarison.pdf" data-i18n="cv.pdf">CV PDF</a></p>
+<link property="schema:sameAs" href="https://hamkitsi.github.io/"/>
+<meta property="schema:email" content="mailto:hasinasitrakar23@gmail.com"/>
 </div>
 </section>
 </header>
-<nav aria-label="Navigation" class="navbar">
-<ul><li><a href="index.html">Accueil</a></li><li><a href="#cv">CV</a></li><li><a href="docs/CV_Hasina_Rakotoarison.pdf">PDF</a></li></ul>
-</nav>
-<main about="https://hamkitsi.github.io/#hasina" id="contenu" typeof="schema:Person foaf:Person">
-<section aria-labelledby="cv-title" class="section grid" id="cv">
-<article class="card cv-card main-cv">
-
-<h2 id="cv-title" property="schema:name foaf:name">Hasina Rakotoarison</h2>
-<meta content="Hasina" property="schema:givenName"/>
-<meta content="Rakotoarison" property="schema:familyName"/>
-<p><strong property="schema:jobTitle">Computer Engineering Apprentice</strong></p>
-<p property="schema:description">Apprentie ingénieure en informatique, motivée par la programmation, les technologies Web, le travail en équipe et l’apprentissage en contexte international.</p>
-<p><a href="https://hamkitsi.github.io/" property="schema:url foaf:homepage">https://hamkitsi.github.io/</a></p>
-<p><a href="mailto:hasinasitrakar23@gmail.com" property="schema:email foaf:mbox">hasinasitrakar23@gmail.com</a></p>
-<p><span property="schema:telephone">+33765270721</span> · <span property="schema:address" typeof="schema:PostalAddress"><span property="schema:addressCountry">France</span></span></p>
-</article>
-<article class="card" rel="schema:knowsAbout">
-<h2>Compétences</h2>
-<ul class="pill-list">
-<li property="schema:knowsAbout">XML</li>
-<li property="schema:knowsAbout">XSD</li>
-<li property="schema:knowsAbout">XSLT</li>
-<li property="schema:knowsAbout">RDF</li>
-<li property="schema:knowsAbout">RDFa</li>
-<li property="schema:knowsAbout">SPARQL</li>
-<li property="schema:knowsAbout">Corese</li>
-<li property="schema:knowsAbout">Java</li>
-<li property="schema:knowsAbout">Python</li>
-<li property="schema:knowsAbout">JavaScript</li>
-<li property="schema:knowsAbout">Database Management</li>
-<li property="schema:knowsAbout">Web Development</li>
-</ul>
-</article>
+<main id="contenu" class="section" data-i18n-html="cv.content">
+<section class="grid">
+<article class="card"><h2>Profil</h2><p>Apprentie ingénieure informatique, intéressée par le développement web, les technologies de données et le travail en équipe.</p></article>
+<article class="card"><h2>Contact</h2><p>Email : hasinasitrakar23@gmail.com</p><p>Localisation : France</p></article>
 </section>
-<section aria-label="Education and experience" class="section grid">
-<article class="card" rel="schema:alumniOf">
-<h2>Formation</h2>
-<div resource="https://www.univ-artois.fr/" typeof="schema:CollegeOrUniversity">
-<h3 property="schema:name">University of Artois</h3>
-<p><time datetime="2021" property="schema:startDate">2021</time> : <time datetime="2023" property="schema:endDate">2023</time> · <span property="schema:description">1st and 2nd years of Bachelor’s degree</span></p>
-</div>
-<div resource="https://www.univ-spn.fr/" typeof="schema:CollegeOrUniversity">
-<h3 property="schema:name">University of Sorbonne Paris Nord</h3>
-<p><time datetime="2023" property="schema:startDate">2023</time> : <time datetime="2027" property="schema:endDate">2027</time> · <span property="schema:description">Software Engineer</span></p>
-</div>
-</article>
-<article class="card" rel="schema:worksFor">
-<h2>Expérience</h2>
-<div resource="https://www.grdf.fr/" typeof="schema:Organization">
-<h3 property="schema:name">GRDF</h3>
-<p><span property="schema:department">Information Systems Department</span> · <span property="schema:roleName">IT Product Manager Apprentice</span> · <time datetime="2023">2023</time>:<time datetime="2024">2024</time></p>
-<p property="schema:description">Tomcat, Apache, Ansible, Centreon, ServiceNow, change and incident backlog, project committees.</p>
-</div>
-<div resource="https://www.gehealthcare.com/" typeof="schema:Organization">
-<h3 property="schema:name">GE Healthcare</h3>
-<p><span property="schema:department">Interventional Software Apps</span> · <span property="schema:roleName">Software Engineer Apprentice</span> · <time datetime="2024">2024</time>:<time datetime="2027">2027</time></p>
-<p property="schema:description">Dashboard enhancement, real-time metrics, web prototype for volumetric medical image reconstruction and visualization.</p>
-</div>
-</article>
-</section>
-
-
-
+<section class="grid"><article class="card"><h2>Compétences</h2><ul><li>Programmation : Python, Java, C</li><li>Web : HTML, CSS, JavaScript</li><li>Données : XML, RDF, SPARQL, RDFa</li><li>Base de données et Unix</li></ul></article><article class="card"><h2>Formation</h2><p>Université Sorbonne Paris Nord : INFOA2</p><p>Université d’Artois : Licence 1 et 2</p></article></section>
+<section class="grid"><article class="card"><h2>Expériences</h2><p><strong>GE Healthcare</strong> : apprentie ingénieure logicielle.</p><p><strong>GRDF</strong> : apprentie IT Product Manager.</p></article></section>
 </main>
-<footer class="site-footer"><p>Portfolio réalisé par Hasina RAKOTOARISON : INFOA2 : Université Sorbonne Paris Nord.</p></footer>
+<footer class="site-footer"><p data-i18n="cv.footer">CV de Hasina RAKOTOARISON.</p></footer>
 </body>
 </html>

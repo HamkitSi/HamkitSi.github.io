@@ -1,14 +1,14 @@
 # Portfolio Web sémantique : Hasina RAKOTOARISON
 
-Portfolio personnel réalisé pour le cours de Web sémantique.
+Portfolio réalisé pour le module de Web sémantique.
 
-## Contenu
+Le site présente :
 
-- accueil multilingue : français, anglais et japonais ;
-- CV annoté en RDFa ;
-- section Travaux Pratiques avec TP1 à TP5 ;
-- fichiers XML, DTD, XSD, XSLT, SVG, RDF, Turtle et SPARQL ;
-- vidéo YouTube intégrée ;
-- documents de compte rendu dans `docs/`.
+- un accueil multilingue en français, anglais et japonais ;
+- un contenu principal stocké dans `data/contenu.xml` et chargé avec JavaScript ;
+- un CV simple avec annotations RDFa dans le code HTML ;
+- une section Travaux Pratiques regroupant XML, DTD, XPath, SVG, XSLT, RDF, SPARQL, Corese et RDFa ;
+- une vidéo YouTube intégrée ;
+- les fichiers techniques et comptes rendus associés aux TP.
 
-Site publié : https://hamkitsi.github.io/
+URL du portfolio : https://hamkitsi.github.io/

@@ -1,108 +1,130 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<portfolio>
-  <language code="fr">
-    <block id="title">Portfolio Web sémantique : Hasina RAKOTOARISON</block>
-    <block id="description">Portfolio pédagogique de Hasina RAKOTOARISON, INFOA2, autour de XML, XSLT, SVG, RDF, SPARQL et Corese.</block>
-    <block id="nav_home">Accueil</block>
-    <block id="nav_tp1">TP1 XML</block>
-    <block id="nav_compagnie">Compagnie</block>
-    <block id="nav_svg">SVG</block>
-    <block id="nav_xslt">XML/XSLT</block>
-    <block id="nav_rdf">RDF/Corese</block>
-    <block id="hero_badge">INFOA2 · Web sémantique</block>
-    <block id="hero_title">Bienvenue dans ma forêt sémantique</block>
-    <block id="hero_text">Ici, chaque arbre est un document XML, chaque branche est une balise, et chaque feuille contient une donnée à comprendre.</block>
-    <block id="hero_cta">Explorer le TP1</block>
-    <block id="identity_title">Qui suis-je ?</block>
-    <block id="identity_text">Je suis Hasina RAKOTOARISON, étudiant en INFOA2. Ce portfolio présente mes rendus et mes explications, avec une approche simple, ludique et progressive.</block>
-    <block id="rules_title">Ce que le portfolio démontre</block>
-    <block id="rules_text">Le site est disponible en français, anglais et japonais, avec des liens alternatifs hreflang, des métadonnées schema.org, une source de contenu XML, une vidéo YouTube intégrée et des fichiers TP testables.</block>
-    <block id="tp1_title">TP1 : Les bases du XML</block>
-    <block id="tp1_text">XML sert à ranger de l’information. Un fichier bien formé ressemble à un arbre : une seule racine, des balises fermées, et des branches correctement imbriquées. Un fichier valide respecte en plus une grammaire : ici une DTD.</block>
-    <block id="tp1_link">Voir les fichiers corrigés</block>
-    <block id="dtd_title">DTD unique de la forêt</block>
-    <block id="dtd_text">La DTD ci-dessous accepte une forêt, des arbres, des troncs, des branches et des feuilles. Elle permet de tester les quatre fichiers corrigés.</block>
-    <block id="compagnie_title">La Compagnie des glaces : XML + XPath</block>
-    <block id="compagnie_text">J’ai modélisé les intégrales sous forme XML : chaque album contient un numéro, un nom, une vignette, un résumé, un lien et plusieurs titres.</block>
-    <block id="stats_title">Résultats obtenus</block>
-    <block id="svg_title">SVG : faire-part et trucage humoristique</block>
-    <block id="svg_text">Le faire-part anime le mariage symbolique entre XML, RDF et SPARQL pendant au moins cinq secondes. Le trucage associe deux images SVG pour créer une fausse une de magazine humoristique.</block>
-    <block id="xslt_title">XML, XSD et XSLT</block>
-    <block id="xslt_text">XML décrit les données, XSD contrôle leur forme, XSLT transforme l’arbre XML en HTML, et CSS rend le résultat agréable à lire.</block>
-    <block id="rdf_title">RDF, Corese et SPARQL</block>
-    <block id="rdf_text">J’ai représenté La Compagnie des glaces sous forme de graphe RDF : une série, un auteur, des albums, des titres et des thèmes. Les requêtes SPARQL servent à interroger ces relations.</block>
-    <block id="video_title">Vidéo de présentation</block>
-    <block id="video_text">Cette vidéo est intégrée depuis YouTube avec un iframe HTML5.</block>
-    <block id="footer">Portfolio réalisé par Hasina RAKOTOARISON : INFOA2 : Université Paris 13.</block>
-  </language>
-  <language code="en">
-    <block id="title">Semantic Web Portfolio : Hasina RAKOTOARISON</block>
-    <block id="description">Educational portfolio by Hasina RAKOTOARISON, INFOA2, about XML, XSLT, SVG, RDF, SPARQL and Corese.</block>
-    <block id="nav_home">Home</block>
-    <block id="nav_tp1">XML Lab</block>
-    <block id="nav_compagnie">Ice Company</block>
-    <block id="nav_svg">SVG</block>
-    <block id="nav_xslt">XML/XSLT</block>
-    <block id="nav_rdf">RDF/Corese</block>
-    <block id="hero_badge">INFOA2 · Semantic Web</block>
-    <block id="hero_title">Welcome to my semantic forest</block>
-    <block id="hero_text">Here, every tree is an XML document, every branch is a tag, and every leaf contains data to understand.</block>
-    <block id="hero_cta">Explore the XML lab</block>
-    <block id="identity_title">Who am I?</block>
-    <block id="identity_text">I am Hasina RAKOTOARISON, an INFOA2 student. This portfolio presents my work and explanations in a simple, playful and progressive way.</block>
-    <block id="rules_title">What the portfolio demonstrates</block>
-    <block id="rules_text">The site is available in French, English and Japanese, with alternate hreflang links, schema.org metadata, an XML content source, an embedded YouTube video and testable lab files.</block>
-    <block id="tp1_title">Lab 1 : XML basics</block>
-    <block id="tp1_text">XML is used to organize information. A well-formed file looks like a tree: one root, closed tags and correctly nested branches. A valid file also follows a grammar: here, a DTD.</block>
-    <block id="tp1_link">Open corrected files</block>
-    <block id="dtd_title">One DTD for the forest</block>
-    <block id="dtd_text">The DTD below accepts a forest, trees, trunks, branches and leaves. It validates the four corrected files.</block>
-    <block id="compagnie_title">The Ice Company : XML + XPath</block>
-    <block id="compagnie_text">I modelled the volumes as XML: each album has a number, a name, a cover placeholder, a summary, a link and several titles.</block>
-    <block id="stats_title">Results</block>
-    <block id="svg_title">SVG : invitation and humorous edit</block>
-    <block id="svg_text">The invitation animates the symbolic wedding between XML, RDF and SPARQL for at least five seconds. The edit combines two SVG images into a fake humorous magazine cover.</block>
-    <block id="xslt_title">XML, XSD and XSLT</block>
-    <block id="xslt_text">XML describes data, XSD checks its shape, XSLT transforms the XML tree into HTML, and CSS makes the result easier to read.</block>
-    <block id="rdf_title">RDF, Corese and SPARQL</block>
-    <block id="rdf_text">I represented The Ice Company as an RDF graph: a series, an author, albums, titles and themes. SPARQL queries are used to explore those relations.</block>
-    <block id="video_title">Presentation video</block>
-    <block id="video_text">This video is embedded from YouTube with an HTML5 iframe.</block>
-    <block id="footer">Portfolio created by Hasina RAKOTOARISON : INFOA2 : Paris 13 University.</block>
-  </language>
-  <language code="ja">
-    <block id="title">セマンティックWebポートフォリオ : Hasina RAKOTOARISON</block>
-    <block id="description">Hasina RAKOTOARISON（INFOA2）による、XML、XSLT、SVG、RDF、SPARQL、Corese の学習ポートフォリオです。</block>
-    <block id="nav_home">ホーム</block>
-    <block id="nav_tp1">XML演習</block>
-    <block id="nav_compagnie">氷の会社</block>
-    <block id="nav_svg">SVG</block>
-    <block id="nav_xslt">XML/XSLT</block>
-    <block id="nav_rdf">RDF/Corese</block>
-    <block id="hero_badge">INFOA2・セマンティックWeb</block>
-    <block id="hero_title">私のセマンティックな森へようこそ</block>
-    <block id="hero_text">ここでは、木はXML文書、枝はタグ、葉は理解すべきデータを表しています。</block>
-    <block id="hero_cta">XML演習を見る</block>
-    <block id="identity_title">自己紹介</block>
-    <block id="identity_text">私は Hasina RAKOTOARISON、INFOA2 の学生です。このポートフォリオでは、課題と説明をシンプルで楽しく段階的にまとめています。</block>
-    <block id="rules_title">このポートフォリオで示すこと</block>
-    <block id="rules_text">サイトはフランス語、英語、日本語に対応し、hreflang、schema.org メタデータ、XMLのコンテンツソース、YouTube動画の埋め込み、テスト可能な課題ファイルを含みます。</block>
-    <block id="tp1_title">TP1 : XMLの基礎</block>
-    <block id="tp1_text">XMLは情報を整理するための形式です。整形式のファイルは木のように、1つの根、閉じられたタグ、正しく入れ子になった枝を持ちます。妥当なファイルはDTDなどの文法にも従います。</block>
-    <block id="tp1_link">修正版ファイルを見る</block>
-    <block id="dtd_title">森のための1つのDTD</block>
-    <block id="dtd_text">以下のDTDは、森、木、幹、枝、葉を表します。4つの修正版XMLを検証できます。</block>
-    <block id="compagnie_title">氷の会社 : XML + XPath</block>
-    <block id="compagnie_text">各アルバムをXMLでモデル化しました。番号、名前、表紙、要約、リンク、複数のタイトルを含みます。</block>
-    <block id="stats_title">得られた結果</block>
-    <block id="svg_title">SVG : 招待状とユーモア画像</block>
-    <block id="svg_text">招待状では、XML、RDF、SPARQLの象徴的な結婚を5秒以上アニメーションします。ユーモア画像は2つのSVGを組み合わせた架空の雑誌表紙です。</block>
-    <block id="xslt_title">XML、XSD、XSLT</block>
-    <block id="xslt_text">XMLはデータを記述し、XSDは構造を確認し、XSLTはXMLの木をHTMLに変換し、CSSは見やすく整えます。</block>
-    <block id="rdf_title">RDF、Corese、SPARQL</block>
-    <block id="rdf_text">「氷の会社」をRDFグラフとして表現しました。シリーズ、作者、アルバム、タイトル、テーマの関係をSPARQLで問い合わせます。</block>
-    <block id="video_title">紹介ビデオ</block>
-    <block id="video_text">この紹介ビデオは YouTube の iframe として埋め込んでいます。</block>
-    <block id="footer">Hasina RAKOTOARISON : INFOA2 : パリ第13大学。</block>
-  </language>
-</portfolio>
+<?xml version="1.0" encoding="UTF-8"?>
+<contenuPortfolio>
+  <page id="index">
+    <bloc id="page.title"><texte lang="fr"><![CDATA[Portfolio Web sémantique : Hasina RAKOTOARISON]]></texte><texte lang="en"><![CDATA[Semantic Web Portfolio : Hasina RAKOTOARISON]]></texte><texte lang="ja"><![CDATA[セマンティックWebポートフォリオ : Hasina RAKOTOARISON]]></texte></bloc>
+    <bloc id="meta.description"><texte lang="fr"><![CDATA[Portfolio de Hasina RAKOTOARISON autour de XML, XSLT, RDF, SPARQL, RDFa et Corese.]]></texte><texte lang="en"><![CDATA[Hasina RAKOTOARISON's portfolio about XML, XSLT, RDF, SPARQL, RDFa and Corese.]]></texte><texte lang="ja"><![CDATA[XML、XSLT、RDF、SPARQL、RDFa、Corese に関する Hasina RAKOTOARISON のポートフォリオ。]]></texte></bloc>
+    <bloc id="skip.content"><texte lang="fr"><![CDATA[Aller au contenu]]></texte><texte lang="en"><![CDATA[Skip to content]]></texte><texte lang="ja"><![CDATA[本文へ移動]]></texte></bloc>
+    <bloc id="nav.home"><texte lang="fr"><![CDATA[Accueil]]></texte><texte lang="en"><![CDATA[Home]]></texte><texte lang="ja"><![CDATA[ホーム]]></texte></bloc>
+    <bloc id="nav.tp"><texte lang="fr"><![CDATA[Travaux Pratiques]]></texte><texte lang="en"><![CDATA[Practical Work]]></texte><texte lang="ja"><![CDATA[実習]]></texte></bloc>
+    <bloc id="nav.cv"><texte lang="fr"><![CDATA[CV]]></texte><texte lang="en"><![CDATA[Resume]]></texte><texte lang="ja"><![CDATA[履歴書]]></texte></bloc>
+    <bloc id="nav.video"><texte lang="fr"><![CDATA[Vidéo]]></texte><texte lang="en"><![CDATA[Video]]></texte><texte lang="ja"><![CDATA[動画]]></texte></bloc>
+    <bloc id="hero.badge"><texte lang="fr"><![CDATA[🌿 INFOA2 · Web sémantique]]></texte><texte lang="en"><![CDATA[🌿 INFOA2 · Semantic Web]]></texte><texte lang="ja"><![CDATA[🌿 INFOA2 · セマンティックWeb]]></texte></bloc>
+    <bloc id="hero.title"><texte lang="fr"><![CDATA[Bienvenue dans ma forêt sémantique]]></texte><texte lang="en"><![CDATA[Welcome to my semantic forest]]></texte><texte lang="ja"><![CDATA[セマンティックな森へようこそ]]></texte></bloc>
+    <bloc id="hero.lead"><texte lang="fr"><![CDATA[Ici, chaque arbre est un document XML, chaque branche est une balise, et chaque feuille contient une donnée à comprendre.]]></texte><texte lang="en"><![CDATA[Here, each tree is an XML document, each branch is a tag, and each leaf contains a piece of data to understand.]]></texte><texte lang="ja"><![CDATA[ここでは、木は XML 文書、枝はタグ、葉は理解すべきデータを表します。]]></texte></bloc>
+    <bloc id="hero.cta"><texte lang="fr"><![CDATA[Explorer les travaux pratiques]]></texte><texte lang="en"><![CDATA[Explore the practical work]]></texte><texte lang="ja"><![CDATA[実習を見る]]></texte></bloc>
+    <bloc id="hero.svg.caption"><texte lang="fr"><![CDATA[une donnée bien rangée pousse mieux]]></texte><texte lang="en"><![CDATA[well-structured data grows better]]></texte><texte lang="ja"><![CDATA[よく整理されたデータは育ちやすい]]></texte></bloc>
+    <bloc id="section.presentation">
+      <texte lang="fr"><![CDATA[
+<article class="card"><h2 id="identite-title">Qui suis-je ?</h2><p>Je suis Hasina RAKOTOARISON, étudiante en INFOA2. Ce portfolio présente mon CV, mes travaux pratiques et mes explications autour du Web sémantique.</p></article>
+<article class="card"><h2>Ce que le portfolio démontre</h2><p>Les contenus principaux sont stockés dans <code>data/contenu.xml</code> et chargés par JavaScript. Le site reste compatible avec GitHub Pages tout en séparant la structure HTML des textes multilingues.</p></article>]]></texte>
+      <texte lang="en"><![CDATA[
+<article class="card"><h2 id="identite-title">Who am I?</h2><p>I am Hasina RAKOTOARISON, an INFOA2 student. This portfolio presents my resume, practical work and explanations about the Semantic Web.</p></article>
+<article class="card"><h2>What this portfolio shows</h2><p>The main text content is stored in <code>data/contenu.xml</code> and loaded with JavaScript. The site remains compatible with GitHub Pages while separating the HTML structure from the multilingual content.</p></article>]]></texte>
+      <texte lang="ja"><![CDATA[
+<article class="card"><h2 id="identite-title">自己紹介</h2><p>私は INFOA2 の学生、Hasina RAKOTOARISON です。このポートフォリオでは、履歴書、実習内容、セマンティックWebについて学んだことを紹介します。</p></article>
+<article class="card"><h2>このポートフォリオで示すこと</h2><p>主要なテキストは <code>data/contenu.xml</code> に保存し、JavaScript で読み込みます。GitHub Pages に対応しながら、HTML の構造と多言語テキストを分離しています。</p></article>]]></texte>
+    </bloc>
+    <bloc id="video.title"><texte lang="fr"><![CDATA[Vidéo de présentation]]></texte><texte lang="en"><![CDATA[Presentation video]]></texte><texte lang="ja"><![CDATA[紹介動画]]></texte></bloc>
+    <bloc id="video.text"><texte lang="fr"><![CDATA[Cette vidéo est intégrée depuis YouTube avec un iframe HTML5.]]></texte><texte lang="en"><![CDATA[This video is embedded from YouTube using an HTML5 iframe.]]></texte><texte lang="ja"><![CDATA[この動画は HTML5 の iframe で YouTube から埋め込まれています。]]></texte></bloc>
+    <bloc id="section.travaux">
+      <texte lang="fr"><![CDATA[
+<h2 id="travaux-title">Travaux Pratiques</h2>
+<p class="lead">Cette section regroupe les TP réalisés en Web sémantique. Les PDF restent disponibles, mais les notions importantes sont directement présentées dans le portfolio.</p>
+<div class="grid"><article class="card"><h3>Fil conducteur</h3><p>La progression est volontaire : XML structure les données, DTD/XSD les contrôlent, XSLT les transforme, RDF les relie, SPARQL les interroge et RDFa les intègre dans HTML.</p></article><article class="card"><h3>Analogie générale</h3><p>Je vois les TP comme une forêt : XML plante les arbres, XSD vérifie leur forme, XSLT les transforme en carte lisible, RDF relie les chemins, et RDFa ajoute des étiquettes invisibles pour les agents.</p></article></div>]]></texte>
+      <texte lang="en"><![CDATA[
+<h2 id="travaux-title">Practical Work</h2>
+<p class="lead">This section gathers the practical work completed in the Semantic Web course. The PDF reports remain available, but the key ideas are presented directly in the portfolio.</p>
+<div class="grid"><article class="card"><h3>Main thread</h3><p>The progression is intentional: XML structures data, DTD/XSD check it, XSLT transforms it, RDF links it, SPARQL queries it and RDFa embeds it into HTML.</p></article><article class="card"><h3>General analogy</h3><p>I see the practical work as a forest: XML plants the trees, XSD checks their shape, XSLT turns them into a readable map, RDF links the paths, and RDFa adds invisible labels for agents.</p></article></div>]]></texte>
+      <texte lang="ja"><![CDATA[
+<h2 id="travaux-title">実習</h2>
+<p class="lead">このセクションでは、セマンティックWebの実習をまとめています。PDF も残していますが、重要な考え方はポートフォリオ内に直接書いています。</p>
+<div class="grid"><article class="card"><h3>学習の流れ</h3><p>XML はデータを構造化し、DTD/XSD は検証し、XSLT は変換し、RDF は関係を作り、SPARQL は問い合わせを行い、RDFa は HTML に意味を埋め込みます。</p></article><article class="card"><h3>全体の例え</h3><p>実習は森のようなものです。XML が木を植え、XSD が形を確認し、XSLT が見やすい地図に変換し、RDF が道をつなぎ、RDFa が機械向けの見えないラベルを付けます。</p></article></div>]]></texte>
+    </bloc>
+    <bloc id="section.tp1"><texte lang="fr"><![CDATA[
+<h2 id="tp1-title">TP1 : XML, DTD, XPath, CSS et SVG</h2><p class="lead">Le TP1 pose les bases : comprendre qu’un document XML est un arbre, corriger des fichiers mal formés, écrire une DTD, interroger un XML avec XPath et produire du SVG.</p><div class="grid"><article class="card"><h3>Notions importantes</h3><ul><li>Un XML bien formé possède une seule racine et des balises correctement imbriquées.</li><li>Un XML valide respecte une grammaire, ici une DTD.</li><li>XPath permet de poser des questions à l’arbre XML.</li><li>SVG montre qu’un langage XML peut aussi décrire une image.</li></ul><p><strong>Analogie :</strong> XML est comme un arbre : la racine tient tout, les branches organisent l’information, et les feuilles contiennent les données.</p></article><article class="card"><h3>DTD unique de la forêt</h3><pre><code>&lt;!ELEMENT foret (#PCDATA|arbre)*&gt;
+&lt;!ELEMENT arbre (tronc)&gt;
+&lt;!ELEMENT tronc (branche*)&gt;
+&lt;!ELEMENT branche (branche|feuille)*&gt;
+&lt;!ELEMENT feuille EMPTY&gt;</code></pre></article></div><div class="grid"><article class="card"><h3>La Compagnie des glaces : XML + XPath</h3><p>Les albums sont modélisés avec un numéro, un nom, une vignette, un résumé, un lien et plusieurs titres. XPath permet ensuite de compter, filtrer et retrouver les albums.</p><div class="stats"><div class="stat"><strong>16</strong> albums</div><div class="stat"><strong>63</strong> titres</div><div class="stat"><strong>7</strong> titres « glace »</div><div class="stat"><strong>16</strong> albums froid</div></div><ul class="link-list"><li><a href="tp1/compagnie.html">Version lisible</a></li><li><a href="tp1/compagnie.xml">XML + XSLT</a></li><li><a href="tp1/requetes_xpath_reponses.txt">Réponses XPath</a></li></ul></article><article class="card"><h3>Fichiers et commandes</h3><ul class="link-list"><li><a href="tp1/bon.xml">bon.xml</a></li><li><a href="tp1/bon2.xml">bon2.xml</a></li><li><a href="tp1/bon3.xml">bon3.xml</a></li><li><a href="tp1/bon4.xml">bon4.xml</a></li><li><a href="tp1/arbres.dtd">arbres.dtd</a></li></ul><pre><code>xmllint --valid --noout tp1/bon.xml
+xsltproc tp1/compagnie.xsl tp1/compagnie.xml &gt; tp1/compagnie.html</code></pre></article></div><div class="grid"><article class="card"><h3>Faire-part SVG</h3><object class="svg-frame" data="tp1/svg/mariage-groupe-ws.svg" type="image/svg+xml"></object><p><a href="tp1/svg/mariage-groupe-ws.svg">Ouvrir le SVG</a></p></article><article class="card"><h3>Trucage humour</h3><object class="svg-frame" data="tp1/svg/trucage-magazine-glacon.svg" type="image/svg+xml"></object><p><a href="tp1/svg/trucage-magazine-glacon.svg">Ouvrir le SVG</a></p></article></div>]]></texte>
+<texte lang="en"><![CDATA[
+<h2 id="tp1-title">TP1 : XML, DTD, XPath, CSS and SVG</h2><p class="lead">TP1 gives the foundations: understanding XML as a tree, fixing malformed files, writing a DTD, querying XML with XPath and producing SVG.</p><div class="grid"><article class="card"><h3>Key ideas</h3><ul><li>A well-formed XML document has one root and correctly nested tags.</li><li>A valid XML document also follows a grammar, here a DTD.</li><li>XPath lets us ask questions to the XML tree.</li><li>SVG shows that XML can also describe images.</li></ul><p><strong>Analogy:</strong> XML is like a tree: the root holds everything, branches organise information, and leaves contain data.</p></article><article class="card"><h3>Shared forest DTD</h3><pre><code>&lt;!ELEMENT foret (#PCDATA|arbre)*&gt;
+&lt;!ELEMENT arbre (tronc)&gt;
+&lt;!ELEMENT tronc (branche*)&gt;
+&lt;!ELEMENT branche (branche|feuille)*&gt;
+&lt;!ELEMENT feuille EMPTY&gt;</code></pre></article></div><div class="grid"><article class="card"><h3>La Compagnie des glaces : XML + XPath</h3><p>The albums are modelled with a number, name, cover, summary, link and several titles. XPath is then used to count, filter and retrieve albums.</p><div class="stats"><div class="stat"><strong>16</strong> albums</div><div class="stat"><strong>63</strong> titles</div><div class="stat"><strong>7</strong> “ice” titles</div><div class="stat"><strong>16</strong> cold albums</div></div><ul class="link-list"><li><a href="tp1/compagnie.html">Readable version</a></li><li><a href="tp1/compagnie.xml">XML + XSLT</a></li><li><a href="tp1/requetes_xpath_reponses.txt">XPath answers</a></li></ul></article><article class="card"><h3>Files and commands</h3><ul class="link-list"><li><a href="tp1/bon.xml">bon.xml</a></li><li><a href="tp1/bon2.xml">bon2.xml</a></li><li><a href="tp1/bon3.xml">bon3.xml</a></li><li><a href="tp1/bon4.xml">bon4.xml</a></li><li><a href="tp1/arbres.dtd">arbres.dtd</a></li></ul><pre><code>xmllint --valid --noout tp1/bon.xml
+xsltproc tp1/compagnie.xsl tp1/compagnie.xml &gt; tp1/compagnie.html</code></pre></article></div><div class="grid"><article class="card"><h3>SVG invitation</h3><object class="svg-frame" data="tp1/svg/mariage-groupe-ws.svg" type="image/svg+xml"></object><p><a href="tp1/svg/mariage-groupe-ws.svg">Open the SVG</a></p></article><article class="card"><h3>Humorous SVG edit</h3><object class="svg-frame" data="tp1/svg/trucage-magazine-glacon.svg" type="image/svg+xml"></object><p><a href="tp1/svg/trucage-magazine-glacon.svg">Open the SVG</a></p></article></div>]]></texte>
+<texte lang="ja"><![CDATA[
+<h2 id="tp1-title">TP1 : XML、DTD、XPath、CSS、SVG</h2><p class="lead">TP1 では XML を木構造として理解し、正しくない XML を修正し、DTD を書き、XPath で検索し、SVG を作成しました。</p><div class="grid"><article class="card"><h3>重要な点</h3><ul><li>整形式 XML は一つのルートと正しい入れ子構造を持ちます。</li><li>妥当な XML は DTD などの文法にも従います。</li><li>XPath は XML の木に質問するための方法です。</li><li>SVG は XML で画像も表現できることを示します。</li></ul><p><strong>例え：</strong> XML は木のようなものです。根が全体を支え、枝が情報を整理し、葉にデータがあります。</p></article><article class="card"><h3>森の DTD</h3><pre><code>&lt;!ELEMENT foret (#PCDATA|arbre)*&gt;
+&lt;!ELEMENT arbre (tronc)&gt;
+&lt;!ELEMENT tronc (branche*)&gt;
+&lt;!ELEMENT branche (branche|feuille)*&gt;
+&lt;!ELEMENT feuille EMPTY&gt;</code></pre></article></div><div class="grid"><article class="card"><h3>氷のカンパニー : XML + XPath</h3><p>各アルバムを番号、名前、画像、要約、リンク、タイトルでモデル化しました。XPath で数えたり検索したりできます。</p><div class="stats"><div class="stat"><strong>16</strong> アルバム</div><div class="stat"><strong>63</strong> タイトル</div><div class="stat"><strong>7</strong> 「氷」関連タイトル</div><div class="stat"><strong>16</strong> 寒さ関連アルバム</div></div><ul class="link-list"><li><a href="tp1/compagnie.html">表示版</a></li><li><a href="tp1/compagnie.xml">XML + XSLT</a></li><li><a href="tp1/requetes_xpath_reponses.txt">XPath の答え</a></li></ul></article><article class="card"><h3>ファイルとコマンド</h3><ul class="link-list"><li><a href="tp1/bon.xml">bon.xml</a></li><li><a href="tp1/bon2.xml">bon2.xml</a></li><li><a href="tp1/bon3.xml">bon3.xml</a></li><li><a href="tp1/bon4.xml">bon4.xml</a></li><li><a href="tp1/arbres.dtd">arbres.dtd</a></li></ul><pre><code>xmllint --valid --noout tp1/bon.xml
+xsltproc tp1/compagnie.xsl tp1/compagnie.xml &gt; tp1/compagnie.html</code></pre></article></div><div class="grid"><article class="card"><h3>SVG 招待状</h3><object class="svg-frame" data="tp1/svg/mariage-groupe-ws.svg" type="image/svg+xml"></object><p><a href="tp1/svg/mariage-groupe-ws.svg">SVG を開く</a></p></article><article class="card"><h3>ユーモア SVG</h3><object class="svg-frame" data="tp1/svg/trucage-magazine-glacon.svg" type="image/svg+xml"></object><p><a href="tp1/svg/trucage-magazine-glacon.svg">SVG を開く</a></p></article></div>]]></texte></bloc>
+    <bloc id="section.tp2"><texte lang="fr"><![CDATA[
+<h2 id="tp2-title">TP2 : XML Schema et XSLT</h2><p class="lead">Ce TP approfondit XML : DTD et XSD servent à contrôler les données, puis XSLT transforme le document en HTML lisible.</p><div class="grid"><article class="card"><h3>Points importants</h3><ul><li>XSD permet de typer plus finement les données qu’une DTD : chaînes, identifiants, références, dates et structures complexes.</li><li>XSLT fonctionne avec des templates : quand un élément XML est reconnu, il est transformé en HTML.</li><li>Le CSS est appelé dans le HTML généré par XSLT.</li></ul><p><strong>Analogie :</strong> XSD est le contrôleur qualité d’une bibliothèque, XSLT est le traducteur qui transforme les fiches internes en page lisible.</p></article><article class="card"><h3>Exemple de transformation</h3><pre><code>&lt;xsl:template match="/"&gt;
+  &lt;html&gt;
+    &lt;body&gt;
+      &lt;xsl:apply-templates/&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/xsl:template&gt;</code></pre><ul class="link-list"><li><a href="xml-xslt/index.html">Rapport TP2</a></li><li><a href="xml-xslt/TP2_Hasina/enseignement.xsd">enseignement.xsd</a></li><li><a href="xml-xslt/TP2_Hasina/enseignement.xsl">enseignement.xsl</a></li></ul></article></div>]]></texte>
+<texte lang="en"><![CDATA[<h2 id="tp2-title">TP2 : XML Schema and XSLT</h2><p class="lead">This work goes further with XML: DTD/XSD check the data and XSLT transforms XML into readable HTML.</p><div class="grid"><article class="card"><h3>Key points</h3><ul><li>XSD is more precise than DTD for datatypes, identifiers, references, dates and complex structures.</li><li>XSLT uses templates: when an XML element is matched, it is transformed into HTML.</li><li>CSS is linked from the HTML generated by XSLT.</li></ul><p><strong>Analogy:</strong> XSD is the quality controller of a library, XSLT is the translator that turns internal records into readable pages.</p></article><article class="card"><h3>Transformation example</h3><pre><code>&lt;xsl:template match="/"&gt;
+  &lt;html&gt;
+    &lt;body&gt;
+      &lt;xsl:apply-templates/&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/xsl:template&gt;</code></pre><ul class="link-list"><li><a href="xml-xslt/index.html">TP2 report</a></li><li><a href="xml-xslt/TP2_Hasina/enseignement.xsd">enseignement.xsd</a></li><li><a href="xml-xslt/TP2_Hasina/enseignement.xsl">enseignement.xsl</a></li></ul></article></div>]]></texte>
+<texte lang="ja"><![CDATA[<h2 id="tp2-title">TP2 : XML Schema と XSLT</h2><p class="lead">この TP では XML をさらに深め、DTD/XSD でデータを検証し、XSLT で HTML に変換しました。</p><div class="grid"><article class="card"><h3>重要な点</h3><ul><li>XSD は DTD よりも型、ID、参照、日付、複雑な構造を細かく表現できます。</li><li>XSLT はテンプレートを使い、XML 要素を HTML に変換します。</li><li>CSS は XSLT が生成した HTML から読み込みます。</li></ul><p><strong>例え：</strong> XSD は図書館の品質チェック、XSLT は内部資料を読みやすいページにする翻訳者です。</p></article><article class="card"><h3>変換例</h3><pre><code>&lt;xsl:template match="/"&gt;
+  &lt;html&gt;
+    &lt;body&gt;
+      &lt;xsl:apply-templates/&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/xsl:template&gt;</code></pre><ul class="link-list"><li><a href="xml-xslt/index.html">TP2 レポート</a></li><li><a href="xml-xslt/TP2_Hasina/enseignement.xsd">enseignement.xsd</a></li><li><a href="xml-xslt/TP2_Hasina/enseignement.xsl">enseignement.xsl</a></li></ul></article></div>]]></texte></bloc>
+    <bloc id="section.tp3"><texte lang="fr"><![CDATA[
+<h2 id="tp3-title">TP3 : RDF, SPARQL et Corese</h2><p class="lead">Dans ce TP, l’univers de La Compagnie des glaces est transformé en graphe RDF. On ne range plus seulement des données en arbre : on relie des personnages, des villes, des trains et des compagnies.</p><div class="grid"><article class="card"><h3>Modélisation RDF</h3><p>Le modèle contient quatre classes principales : <code>Personnage</code>, <code>Ville</code>, <code>Train</code> et <code>Compagnie</code>.</p><pre><code>:LucienBruk :habiteDans :NouvelleGeneve .
+:LucienBruk :travaillePour :CompagnieDesGlaces .
+:ExpressPolaire :relie :PortNord .</code></pre><p><strong>Analogie :</strong> RDF est comme un plan de métro : les stations sont les ressources, les lignes sont les propriétés, et SPARQL demande quel trajet relie les éléments.</p></article><article class="card"><h3>Requêtes SPARQL</h3><ul><li>Lister les personnages avec leur ville et leur compagnie.</li><li>Retrouver les trains par compagnie.</li><li>Classer les villes par température.</li><li>Identifier les conducteurs et les villes desservies.</li></ul><ul class="link-list"><li><a href="rdf-corese/glaces.ttl">glaces.ttl</a></li><li><a href="rdf-corese/requetes.sparql">requetes.sparql</a></li><li><a href="docs/CR_TP3_RDF_SPARQL_Corese.pdf">Compte rendu PDF</a></li></ul></article></div>]]></texte>
+<texte lang="en"><![CDATA[<h2 id="tp3-title">TP3 : RDF, SPARQL and Corese</h2><p class="lead">In this work, La Compagnie des glaces is turned into an RDF graph. The data is no longer only a tree: characters, cities, trains and companies are linked.</p><div class="grid"><article class="card"><h3>RDF model</h3><p>The model uses four main classes: <code>Personnage</code>, <code>Ville</code>, <code>Train</code> and <code>Compagnie</code>.</p><pre><code>:LucienBruk :habiteDans :NouvelleGeneve .
+:LucienBruk :travaillePour :CompagnieDesGlaces .
+:ExpressPolaire :relie :PortNord .</code></pre><p><strong>Analogy:</strong> RDF is like a metro map: stations are resources, lines are properties, and SPARQL asks which route connects the elements.</p></article><article class="card"><h3>SPARQL queries</h3><ul><li>List characters with their city and company.</li><li>Find trains by company.</li><li>Sort cities by temperature.</li><li>Identify drivers and served cities.</li></ul><ul class="link-list"><li><a href="rdf-corese/glaces.ttl">glaces.ttl</a></li><li><a href="rdf-corese/requetes.sparql">requetes.sparql</a></li><li><a href="docs/CR_TP3_RDF_SPARQL_Corese.pdf">PDF report</a></li></ul></article></div>]]></texte>
+<texte lang="ja"><![CDATA[<h2 id="tp3-title">TP3 : RDF、SPARQL、Corese</h2><p class="lead">この TP では「氷のカンパニー」の世界を RDF グラフにしました。データを木として並べるだけでなく、人物、都市、列車、会社を関係でつなぎます。</p><div class="grid"><article class="card"><h3>RDF モデル</h3><p>主なクラスは <code>Personnage</code>、<code>Ville</code>、<code>Train</code>、<code>Compagnie</code> です。</p><pre><code>:LucienBruk :habiteDans :NouvelleGeneve .
+:LucienBruk :travaillePour :CompagnieDesGlaces .
+:ExpressPolaire :relie :PortNord .</code></pre><p><strong>例え：</strong> RDF は地下鉄の路線図のようなものです。駅がリソース、線がプロパティ、SPARQL が経路を探します。</p></article><article class="card"><h3>SPARQL クエリ</h3><ul><li>人物と都市、会社を一覧にする。</li><li>会社ごとの列車を探す。</li><li>都市を気温順に並べる。</li><li>運転手と通過都市を確認する。</li></ul><ul class="link-list"><li><a href="rdf-corese/glaces.ttl">glaces.ttl</a></li><li><a href="rdf-corese/requetes.sparql">requetes.sparql</a></li><li><a href="docs/CR_TP3_RDF_SPARQL_Corese.pdf">PDF レポート</a></li></ul></article></div>]]></texte></bloc>
+    <bloc id="section.tp4"><texte lang="fr"><![CDATA[<h2 id="tp4-title">TP4 : XML Schema, XSLT et Unicode</h2><p class="lead">Ce TP relie la validation XML, la transformation XSLT et l’encodage Unicode.</p><div class="grid"><article class="card"><h3>Ce que j’ai retenu</h3><ul><li>XML Schema vérifie la cohérence d’un document plus précisément qu’une DTD.</li><li>XSLT permet de transformer une source XML en HTML.</li><li>Unicode et UTF-8 sont essentiels pour un site multilingue, notamment avec le japonais.</li></ul><p><strong>Analogie :</strong> TP4 ressemble à une traduction propre : la structure doit être correcte, la mise en page lisible, et les caractères bien encodés.</p></article><article class="card"><h3>Documents</h3><ul class="link-list"><li><a href="docs/CR_TP4_XMLSchema_XSLT_Unicode.pdf">Compte rendu PDF</a></li><li><a href="docs/XML_Schema_XSLT.pdf">Sujet XML Schema/XSLT</a></li></ul></article></div>]]></texte>
+<texte lang="en"><![CDATA[<h2 id="tp4-title">TP4 : XML Schema, XSLT and Unicode</h2><p class="lead">This work links XML validation, XSLT transformation and Unicode encoding.</p><div class="grid"><article class="card"><h3>What I kept</h3><ul><li>XML Schema checks consistency more precisely than a DTD.</li><li>XSLT transforms an XML source into HTML.</li><li>Unicode and UTF-8 are essential for a multilingual website, especially with Japanese.</li></ul><p><strong>Analogy:</strong> TP4 is like a clean translation: structure must be correct, layout readable, and characters correctly encoded.</p></article><article class="card"><h3>Documents</h3><ul class="link-list"><li><a href="docs/CR_TP4_XMLSchema_XSLT_Unicode.pdf">PDF report</a></li><li><a href="docs/XML_Schema_XSLT.pdf">XML Schema/XSLT topic</a></li></ul></article></div>]]></texte>
+<texte lang="ja"><![CDATA[<h2 id="tp4-title">TP4 : XML Schema、XSLT、Unicode</h2><p class="lead">この TP は XML の検証、XSLT の変換、Unicode の文字エンコーディングを結びます。</p><div class="grid"><article class="card"><h3>学んだこと</h3><ul><li>XML Schema は DTD より正確に文書の一貫性を確認できます。</li><li>XSLT は XML から HTML へ変換できます。</li><li>日本語を含む多言語サイトには Unicode と UTF-8 が重要です。</li></ul><p><strong>例え：</strong> TP4 は丁寧な翻訳のようなものです。構造、表示、文字コードのすべてを整える必要があります。</p></article><article class="card"><h3>資料</h3><ul class="link-list"><li><a href="docs/CR_TP4_XMLSchema_XSLT_Unicode.pdf">PDF レポート</a></li><li><a href="docs/XML_Schema_XSLT.pdf">XML Schema/XSLT 課題</a></li></ul></article></div>]]></texte></bloc>
+    <bloc id="section.tp5"><texte lang="fr"><![CDATA[<h2 id="tp5-title">TP5 : RDFa et Web sémantique</h2><p class="lead">Ce TP montre comment ajouter une couche sémantique dans HTML avec RDFa.</p><div class="grid"><article class="card"><h3>RDFa</h3><p>RDFa utilise des attributs comme <code>about</code>, <code>typeof</code>, <code>property</code>, <code>rel</code> et <code>resource</code>. La page reste lisible par un humain, mais elle peut aussi être interprétée par un agent.</p><pre><code>&lt;section about="#hasina" typeof="schema:Person"&gt;
+  &lt;h1 property="schema:name"&gt;Hasina RAKOTOARISON&lt;/h1&gt;
+&lt;/section&gt;</code></pre><p><strong>Analogie :</strong> RDFa ajoute des étiquettes discrètes sur la page : elles ne gênent pas la lecture, mais elles donnent du sens aux machines.</p></article><article class="card"><h3>Vérification</h3><p>Les annotations peuvent être vérifiées avec un outil comme OpenLink Structured Data Sniffer ou avec une extraction RDFa vers Turtle.</p><ul class="link-list"><li><a href="rdfa/hasina-cv.ttl">hasina-cv.ttl</a></li><li><a href="rdfa/cv-sparql.rq">cv-sparql.rq</a></li><li><a href="rdfa/extraction.md">extraction.md</a></li><li><a href="docs/CR_TP5_RDFa_WebSemantique.pdf">Compte rendu PDF</a></li></ul></article></div>]]></texte>
+<texte lang="en"><![CDATA[<h2 id="tp5-title">TP5 : RDFa and Semantic Web</h2><p class="lead">This work shows how to add a semantic layer into HTML with RDFa.</p><div class="grid"><article class="card"><h3>RDFa</h3><p>RDFa uses attributes such as <code>about</code>, <code>typeof</code>, <code>property</code>, <code>rel</code> and <code>resource</code>. The page remains readable by humans but can also be interpreted by an agent.</p><pre><code>&lt;section about="#hasina" typeof="schema:Person"&gt;
+  &lt;h1 property="schema:name"&gt;Hasina RAKOTOARISON&lt;/h1&gt;
+&lt;/section&gt;</code></pre><p><strong>Analogy:</strong> RDFa adds discreet labels to the page: they do not disturb reading, but they give meaning to machines.</p></article><article class="card"><h3>Verification</h3><p>The annotations can be checked with tools such as OpenLink Structured Data Sniffer or by extracting RDFa into Turtle.</p><ul class="link-list"><li><a href="rdfa/hasina-cv.ttl">hasina-cv.ttl</a></li><li><a href="rdfa/cv-sparql.rq">cv-sparql.rq</a></li><li><a href="rdfa/extraction.md">extraction.md</a></li><li><a href="docs/CR_TP5_RDFa_WebSemantique.pdf">PDF report</a></li></ul></article></div>]]></texte>
+<texte lang="ja"><![CDATA[<h2 id="tp5-title">TP5 : RDFa とセマンティックWeb</h2><p class="lead">この TP では RDFa を使って HTML に意味情報を追加する方法を学びました。</p><div class="grid"><article class="card"><h3>RDFa</h3><p>RDFa は <code>about</code>、<code>typeof</code>、<code>property</code>、<code>rel</code>、<code>resource</code> などの属性を使います。ページは人間にも読め、エージェントにも解釈できます。</p><pre><code>&lt;section about="#hasina" typeof="schema:Person"&gt;
+  &lt;h1 property="schema:name"&gt;Hasina RAKOTOARISON&lt;/h1&gt;
+&lt;/section&gt;</code></pre><p><strong>例え：</strong> RDFa はページに目立たないラベルを付けるようなものです。読む人の邪魔をせず、機械に意味を伝えます。</p></article><article class="card"><h3>確認</h3><p>OpenLink Structured Data Sniffer などのツールや Turtle への抽出で注釈を確認できます。</p><ul class="link-list"><li><a href="rdfa/hasina-cv.ttl">hasina-cv.ttl</a></li><li><a href="rdfa/cv-sparql.rq">cv-sparql.rq</a></li><li><a href="rdfa/extraction.md">extraction.md</a></li><li><a href="docs/CR_TP5_RDFa_WebSemantique.pdf">PDF レポート</a></li></ul></article></div>]]></texte></bloc>
+    <bloc id="section.cv"><texte lang="fr"><![CDATA[<article class="card"><h2 id="cv-title">CV</h2><p>La page CV présente mes informations principales : profil, compétences, formation, expériences et contact.</p><p><a class="button-link" href="cv-rdfa.html?lang=fr">Ouvrir le CV</a> <a class="button-link secondary" href="docs/CV_Hasina_Rakotoarison.pdf">CV PDF</a></p></article><article class="card"><h2>Fichiers sémantiques associés</h2><p>Les fichiers RDFa et SPARQL restent disponibles dans le projet, sans surcharger l’affichage du CV.</p><ul class="link-list"><li><a href="rdfa/hasina-cv.ttl">Turtle attendu</a></li><li><a href="rdfa/cv-sparql.rq">Requêtes SPARQL CV</a></li></ul></article>]]></texte>
+<texte lang="en"><![CDATA[<article class="card"><h2 id="cv-title">Resume</h2><p>The resume page presents my main information: profile, skills, education, experience and contact.</p><p><a class="button-link" href="cv-rdfa.html?lang=en">Open the resume</a> <a class="button-link secondary" href="docs/CV_Hasina_Rakotoarison.pdf">PDF resume</a></p></article><article class="card"><h2>Associated semantic files</h2><p>The RDFa and SPARQL files remain available in the project without overloading the visible resume.</p><ul class="link-list"><li><a href="rdfa/hasina-cv.ttl">Expected Turtle</a></li><li><a href="rdfa/cv-sparql.rq">Resume SPARQL queries</a></li></ul></article>]]></texte>
+<texte lang="ja"><![CDATA[<article class="card"><h2 id="cv-title">履歴書</h2><p>履歴書ページでは、プロフィール、スキル、学歴、経験、連絡先を紹介します。</p><p><a class="button-link" href="cv-rdfa.html?lang=ja">履歴書を開く</a> <a class="button-link secondary" href="docs/CV_Hasina_Rakotoarison.pdf">PDF 履歴書</a></p></article><article class="card"><h2>関連するセマンティックファイル</h2><p>RDFa と SPARQL のファイルはプロジェクト内に残しつつ、表示される履歴書はシンプルにしています。</p><ul class="link-list"><li><a href="rdfa/hasina-cv.ttl">Turtle 予定出力</a></li><li><a href="rdfa/cv-sparql.rq">履歴書 SPARQL クエリ</a></li></ul></article>]]></texte></bloc>
+    <bloc id="footer.text"><texte lang="fr"><![CDATA[Portfolio de Hasina RAKOTOARISON : Web sémantique, XML, RDF et RDFa.]]></texte><texte lang="en"><![CDATA[Hasina RAKOTOARISON's portfolio : Semantic Web, XML, RDF and RDFa.]]></texte><texte lang="ja"><![CDATA[Hasina RAKOTOARISON のポートフォリオ : セマンティックWeb、XML、RDF、RDFa。]]></texte></bloc>
+  </page>
+
+  <page id="cv">
+    <bloc id="cv.page.title"><texte lang="fr"><![CDATA[CV : Hasina RAKOTOARISON]]></texte><texte lang="en"><![CDATA[Resume : Hasina RAKOTOARISON]]></texte><texte lang="ja"><![CDATA[履歴書 : Hasina RAKOTOARISON]]></texte></bloc>
+    <bloc id="cv.meta.description"><texte lang="fr"><![CDATA[CV de Hasina RAKOTOARISON]]></texte><texte lang="en"><![CDATA[Resume of Hasina RAKOTOARISON]]></texte><texte lang="ja"><![CDATA[Hasina RAKOTOARISON の履歴書]]></texte></bloc>
+    <bloc id="skip.content"><texte lang="fr"><![CDATA[Aller au contenu]]></texte><texte lang="en"><![CDATA[Skip to content]]></texte><texte lang="ja"><![CDATA[本文へ移動]]></texte></bloc>
+    <bloc id="cv.badge"><texte lang="fr"><![CDATA[🌿 CV]]></texte><texte lang="en"><![CDATA[🌿 Resume]]></texte><texte lang="ja"><![CDATA[🌿 履歴書]]></texte></bloc>
+    <bloc id="cv.name"><texte lang="fr"><![CDATA[Hasina RAKOTOARISON]]></texte><texte lang="en"><![CDATA[Hasina RAKOTOARISON]]></texte><texte lang="ja"><![CDATA[Hasina RAKOTOARISON]]></texte></bloc>
+    <bloc id="cv.job"><texte lang="fr"><![CDATA[Apprentie ingénieure informatique]]></texte><texte lang="en"><![CDATA[Computer Engineering Apprentice]]></texte><texte lang="ja"><![CDATA[コンピュータ工学の見習いエンジニア]]></texte></bloc>
+    <bloc id="cv.back"><texte lang="fr"><![CDATA[Accueil]]></texte><texte lang="en"><![CDATA[Home]]></texte><texte lang="ja"><![CDATA[ホーム]]></texte></bloc>
+    <bloc id="cv.pdf"><texte lang="fr"><![CDATA[CV PDF]]></texte><texte lang="en"><![CDATA[PDF resume]]></texte><texte lang="ja"><![CDATA[PDF 履歴書]]></texte></bloc>
+    <bloc id="cv.content">
+      <texte lang="fr"><![CDATA[<section class="grid" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person"><article class="card"><h2>Profil</h2><p property="schema:description">Apprentie ingénieure informatique, intéressée par le développement web, les technologies de données et le travail en équipe.</p></article><article class="card"><h2>Contact</h2><p>Email : <span property="schema:email">hasinasitrakar23@gmail.com</span></p><p>Localisation : <span property="schema:address">France</span></p></article></section><section class="grid"><article class="card"><h2>Compétences</h2><ul><li property="schema:knowsAbout">Python, Java, C</li><li property="schema:knowsAbout">HTML, CSS, JavaScript</li><li property="schema:knowsAbout">XML, RDF, SPARQL, RDFa</li><li property="schema:knowsAbout">Base de données et Unix</li></ul></article><article class="card"><h2>Formation</h2><p property="schema:alumniOf">Université Sorbonne Paris Nord : INFOA2</p><p>Université d’Artois : Licence 1 et 2</p></article></section><section class="grid"><article class="card"><h2>Expériences</h2><p><strong property="schema:worksFor">GE Healthcare</strong> : apprentie ingénieure logicielle.</p><p><strong>GRDF</strong> : apprentie IT Product Manager.</p></article></section>]]></texte>
+      <texte lang="en"><![CDATA[<section class="grid" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person"><article class="card"><h2>Profile</h2><p property="schema:description">Computer engineering apprentice interested in web development, data technologies and teamwork.</p></article><article class="card"><h2>Contact</h2><p>Email: <span property="schema:email">hasinasitrakar23@gmail.com</span></p><p>Location: <span property="schema:address">France</span></p></article></section><section class="grid"><article class="card"><h2>Skills</h2><ul><li property="schema:knowsAbout">Python, Java, C</li><li property="schema:knowsAbout">HTML, CSS, JavaScript</li><li property="schema:knowsAbout">XML, RDF, SPARQL, RDFa</li><li property="schema:knowsAbout">Databases and Unix</li></ul></article><article class="card"><h2>Education</h2><p property="schema:alumniOf">Université Sorbonne Paris Nord : INFOA2</p><p>University of Artois : first and second years of Bachelor’s degree</p></article></section><section class="grid"><article class="card"><h2>Experience</h2><p><strong property="schema:worksFor">GE Healthcare</strong> : software engineer apprentice.</p><p><strong>GRDF</strong> : IT Product Manager apprentice.</p></article></section>]]></texte>
+      <texte lang="ja"><![CDATA[<section class="grid" about="https://hamkitsi.github.io/#hasina" typeof="schema:Person foaf:Person"><article class="card"><h2>プロフィール</h2><p property="schema:description">Web 開発、データ技術、チームワークに関心のあるコンピュータ工学の見習いエンジニアです。</p></article><article class="card"><h2>連絡先</h2><p>メール : <span property="schema:email">hasinasitrakar23@gmail.com</span></p><p>所在地 : <span property="schema:address">フランス</span></p></article></section><section class="grid"><article class="card"><h2>スキル</h2><ul><li property="schema:knowsAbout">Python, Java, C</li><li property="schema:knowsAbout">HTML, CSS, JavaScript</li><li property="schema:knowsAbout">XML, RDF, SPARQL, RDFa</li><li property="schema:knowsAbout">データベースと Unix</li></ul></article><article class="card"><h2>学歴</h2><p property="schema:alumniOf">Université Sorbonne Paris Nord : INFOA2</p><p>Université d’Artois : 学士課程 1・2 年</p></article></section><section class="grid"><article class="card"><h2>経験</h2><p><strong property="schema:worksFor">GE Healthcare</strong> : ソフトウェアエンジニア見習い。</p><p><strong>GRDF</strong> : IT プロダクトマネージャー見習い。</p></article></section>]]></texte>
+    </bloc>
+    <bloc id="cv.footer"><texte lang="fr"><![CDATA[CV de Hasina RAKOTOARISON.]]></texte><texte lang="en"><![CDATA[Resume of Hasina RAKOTOARISON.]]></texte><texte lang="ja"><![CDATA[Hasina RAKOTOARISON の履歴書。]]></texte></bloc>
+  </page>
+</contenuPortfolio>
